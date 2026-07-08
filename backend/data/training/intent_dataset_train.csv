@@ -1,0 +1,817 @@
+text,intent
+do you work on lifted trucks,ask_vehicle_support
+rough cost for ceramic coating on a sedan?,request_quote
+"Just calling to ask, when do you close",ask_hours
+Quick question — I need this done before tomorrow,urgent_detail_request
+"Hi, I want to take the swirls out before coating",ask_paint_correction
+rough cost for ceramic coating on a sedan please,request_quote
+what's the difference between coating and wax,ask_ceramic_coating
+"where are you located, by the way",ask_location
+"I was wondering, can you give me directions",ask_location
+"I was wondering, what areas do you cover",ask_service_area
+Can you tell me can you polish my car,ask_paint_correction
+how do I find your shop?,ask_location
+Can you tell me can you give me an estimate for paint correction,request_quote
+"I need this done before tomorrow, by the way",urgent_detail_request
+Quick question — can you fix oxidation,ask_paint_correction
+Quick question — there's a swirl mark you missed,complaint_or_issue
+can I book for Saturday,book_appointment
+Quick question — what services do you offer,ask_services
+"Hi, do you do paint correction",ask_paint_correction
+"Hi, do you work on Porsches",ask_vehicle_support
+does ceramic coating prevent scratches?,ask_ceramic_coating
+"Just calling to ask, have somebody call me",callback_request
+"is detailing expensive, by the way",ask_pricing
+hi there,greeting
+"Just calling to ask, can you come to my apartment",ask_mobile_service
+what do you guys do please,ask_services
+Can you tell me the interior still smells,complaint_or_issue
+Can you tell me there's a scratch that wasn't there before,complaint_or_issue
+Can you tell me there's a swirl mark you missed,complaint_or_issue
+do you work on lifted trucks,ask_vehicle_support
+do you service Costa Mesa,ask_service_area
+Can you tell me what kind of detailing do you offer,ask_services
+"I was wondering, can you remove swirl marks",ask_paint_correction
+Can you tell me can I set up an appointment,book_appointment
+"I was wondering, what's your address",ask_location
+Can you tell me what time do you close on Friday,ask_hours
+I'm not happy with the result?,complaint_or_issue
+what part of town are you in,ask_location
+can you detail a minivan please,ask_vehicle_support
+"Hey, do you do EVs",ask_vehicle_support
+how long does a ceramic coating take?,ask_ceramic_coating
+do you do EVs?,ask_vehicle_support
+do you offer graphene coatings,ask_ceramic_coating
+can you call me back?,callback_request
+"Just calling to ask, can someone ring me back",callback_request
+Can you tell me can you fit me in today,urgent_detail_request
+Quick question — do you accept credit cards,general_question
+"hey, how's it going",greeting
+I'd like a callback,callback_request
+"what's up, by the way",greeting
+"Hi, do you service Irvine",ask_mobile_service
+"Just calling to ask, is detailing expensive",ask_pricing
+do you work on lifted trucks?,ask_vehicle_support
+can you polish my car?,ask_paint_correction
+Quick question — I need it detailed today,urgent_detail_request
+"can you buff out scratches, by the way",ask_paint_correction
+are you open today please,ask_hours
+"Hi, hey, how's it going",greeting
+do you offer subscriptions,general_question
+"Hey, what do you charge for ceramic coating",request_quote
+Quick question — have somebody call me,callback_request
+"Hey, ballpark price for a maintenance wash",request_quote
+do you accept credit cards please,general_question
+there's a scratch that wasn't there before please,complaint_or_issue
+"any chance you can come out tonight, by the way",urgent_detail_request
+can you polish my car,ask_paint_correction
+there's a swirl mark you missed,complaint_or_issue
+Can you tell me I'd like a callback,callback_request
+do you have a slot Sunday,book_appointment
+"Hi, are you available Friday",book_appointment
+Quick question — what time do you open on Saturday,ask_hours
+"Hey, can you remove swirl marks",ask_paint_correction
+Quick question — do you work on Porsches,ask_vehicle_support
+"do you sell gift cards, by the way",general_question
+Quick question — what are your prices,ask_pricing
+where are you located,ask_location
+"Just calling to ask, hey",greeting
+does ceramic coating prevent scratches?,ask_ceramic_coating
+are you open on Sundays,ask_hours
+"I was wondering, is there a warranty on the coating",general_question
+Quick question — what time can I bring my car in,book_appointment
+"I was wondering, can you fit me in today",urgent_detail_request
+are you available Friday,book_appointment
+"Can you tell me thanks, that's all",goodbye
+"Hi, do you accept credit cards",general_question
+"I was wondering, I'd want you to come to my place",ask_mobile_service
+what cities do you cover please,ask_service_area
+"Hi, what are your prices",ask_pricing
+do you come to Anaheim,ask_service_area
+"have somebody call me, by the way",callback_request
+bye,goodbye
+do you service Irvine,ask_mobile_service
+Quick question — do you come to me,ask_mobile_service
+"Just calling to ask, goodbye, see you",goodbye
+"Can you tell me thank you, have a good one",goodbye
+"Hey, can you detail an exotic",ask_vehicle_support
+Can you tell me does ceramic coating prevent scratches,ask_ceramic_coating
+"I was wondering, give me a call later",callback_request
+do you offer subscriptions please,general_question
+do you detail Teslas?,ask_vehicle_support
+Quick question — ballpark price for a maintenance wash,request_quote
+"thank you, have a good one",goodbye
+"Just calling to ask, I need a detail ASAP",urgent_detail_request
+hey,greeting
+"Just calling to ask, do you offer engine bay cleaning",ask_services
+"Hi, do you sell gift cards",general_question
+what's the cost of an interior detail,ask_pricing
+what areas do you cover?,ask_service_area
+"Hi, what are your prices",ask_pricing
+"do you have anything tomorrow morning, by the way",book_appointment
+"goodbye, see you",goodbye
+"Hi, have somebody call me",callback_request
+do you do mobile detailing please,ask_mobile_service
+"any chance you can come out tonight, by the way",urgent_detail_request
+what would it cost for interior and exterior,request_quote
+do you detail Teslas please,ask_vehicle_support
+"Hi, goodbye, see you",goodbye
+"Hi, any chance you can come out tonight",urgent_detail_request
+Quick question — do you accept credit cards,general_question
+"appreciate it, talk later",goodbye
+do you have a referral program,general_question
+"I was wondering, can someone ring me back",callback_request
+Can you tell me can you give me an estimate for paint correction,request_quote
+"Hi, are you available Friday",book_appointment
+how much for a maintenance wash please,ask_pricing
+hello,greeting
+"I was wondering, what time do you close on Friday",ask_hours
+"Just calling to ask, hi there",greeting
+can you detail a minivan?,ask_vehicle_support
+"Just calling to ask, appreciate it, talk later",goodbye
+hello?,greeting
+"Hi, any openings this week",book_appointment
+do you sell gift cards please,general_question
+"I was wondering, can you come to my apartment",ask_mobile_service
+are you mobile,ask_mobile_service
+can you give me an estimate for paint correction please,request_quote
+"Just calling to ask, can you give me directions",ask_location
+"can you give me directions, by the way",ask_location
+any chance you can come out tonight,urgent_detail_request
+"Just calling to ask, my black car has scratches",ask_paint_correction
+Can you tell me are you mobile,ask_mobile_service
+rough cost for ceramic coating on a sedan please,request_quote
+"I was wondering, can I book for Saturday",book_appointment
+"goodbye, see you please",goodbye
+Can you tell me how do I find your shop,ask_location
+what cities do you cover?,ask_service_area
+"Hi, when do you close",ask_hours
+"bye, by the way",goodbye
+"Just calling to ask, thanks, that's all",goodbye
+"Hey, hello",greeting
+can you polish my car please,ask_paint_correction
+"Just calling to ask, can you detail a minivan",ask_vehicle_support
+do you service Newport Beach,ask_service_area
+"Just calling to ask, what areas do you cover",ask_service_area
+"Hi, have somebody call me",callback_request
+is detailing expensive,ask_pricing
+Can you tell me do you do detailing on trucks,ask_services
+Can you tell me what time do you close on Friday,ask_hours
+Quick question — I'm not happy with the result,complaint_or_issue
+"I was wondering, I need it detailed today",urgent_detail_request
+give me a call later?,callback_request
+"I was wondering, I need it detailed today",urgent_detail_request
+bye,goodbye
+Quick question — what part of town are you in,ask_location
+"Hey, what's your price range",ask_pricing
+Can you tell me do you accept credit cards,general_question
+do you come to Anaheim,ask_service_area
+Quick question — can you fix oxidation,ask_paint_correction
+"Hey, hey",greeting
+Quick question — can you call me back,callback_request
+"I was wondering, I'd like a callback",callback_request
+"Hey, have somebody call me",callback_request
+do you service Costa Mesa please,ask_service_area
+do you accept credit cards,general_question
+does ceramic coating prevent scratches?,ask_ceramic_coating
+"Hey, can you come to my apartment",ask_mobile_service
+"Just calling to ask, do you come to Anaheim",ask_service_area
+"I need a detail ASAP, by the way",urgent_detail_request
+Can you tell me do you do mobile detailing,ask_mobile_service
+"can I get a quote for my BMW, by the way",request_quote
+Can you tell me rough cost for ceramic coating on a sedan,request_quote
+can you give me an estimate for paint correction?,request_quote
+can I book for Saturday?,book_appointment
+"Quick question — thanks, that's all",goodbye
+Can you tell me how much to detail a Tesla Model 3,request_quote
+how much is just an exterior detail please,ask_pricing
+"I was wondering, do you work on lifted trucks",ask_vehicle_support
+how much for a maintenance wash,ask_pricing
+have somebody call me?,callback_request
+"Hi, do you go out to Huntington Beach",ask_service_area
+"do you do EVs, by the way",ask_vehicle_support
+"Just calling to ask, what are your hours",ask_hours
+"Just calling to ask, what's the cost of an interior detail",ask_pricing
+"I was wondering, can you call me back",callback_request
+Can you tell me are you open today,ask_hours
+"I've got a lot of water spots, can you fix that please",ask_paint_correction
+"ballpark price for a maintenance wash, by the way",request_quote
+"Hi, how much for a full detail",request_quote
+Can you tell me where are you located,ask_location
+do you do interior and exterior,ask_services
+"I was wondering, what's up",greeting
+"there's a scratch that wasn't there before, by the way",complaint_or_issue
+"Just calling to ask, is there a warranty on the coating",general_question
+do you work on lifted trucks?,ask_vehicle_support
+what kind of detailing do you offer,ask_services
+"Hi, do you accept credit cards",general_question
+"Just calling to ask, are you available Friday",book_appointment
+what's your price range?,ask_pricing
+"Just calling to ask, hello",greeting
+"Hey, good afternoon",greeting
+"Hey, do you have a slot Sunday",book_appointment
+"Just calling to ask, appreciate it, talk later",goodbye
+are you open on Sundays,ask_hours
+are you open on Sundays,ask_hours
+is there a warranty on the coating please,general_question
+"hi there, by the way",greeting
+Quick question — how do I find your shop,ask_location
+Quick question — do you come to me,ask_mobile_service
+"Hi, can I get a refund",complaint_or_issue
+are you available Friday,book_appointment
+"I was wondering, do you guys travel out to Newport",ask_mobile_service
+do you have a referral program,general_question
+"do you sell gift cards, by the way",general_question
+can I get a quote for my BMW?,request_quote
+"Hey, hey, how's it going",greeting
+what cities do you cover,ask_service_area
+"Hi, do you accept credit cards",general_question
+"I was wondering, what cities do you cover",ask_service_area
+"Just calling to ask, when do you close",ask_hours
+how much to detail a Tesla Model 3,request_quote
+Can you tell me can you detail a minivan,ask_vehicle_support
+can I schedule a detail next week,book_appointment
+what services do you offer?,ask_services
+"Just calling to ask, there's a swirl mark you missed",complaint_or_issue
+"I was wondering, what would it cost for interior and exterior",request_quote
+"Hey, what are your hours",ask_hours
+Quick question — what cities do you cover,ask_service_area
+"hey, how's it going",greeting
+"Can you tell me thanks, that's all",goodbye
+"Hi, can I get a quote for my BMW",request_quote
+"Hey, what part of town are you in",ask_location
+good morning?,greeting
+what are your prices,ask_pricing
+"Hey, can you detail an exotic",ask_vehicle_support
+how long does a ceramic coating take,ask_ceramic_coating
+"how do I find your shop, by the way",ask_location
+"there's a swirl mark you missed, by the way",complaint_or_issue
+"Hi, have somebody call me",callback_request
+"Hi, do you go out to Huntington Beach",ask_service_area
+there's a scratch that wasn't there before?,complaint_or_issue
+are you mobile please,ask_mobile_service
+"I was wondering, what's up",greeting
+do you guys do ceramic coating,ask_ceramic_coating
+"is ceramic coating worth it, by the way",ask_ceramic_coating
+Can you tell me I need this done before tomorrow,urgent_detail_request
+"I was wondering, I'd want you to come to my place",ask_mobile_service
+how much for a maintenance wash,ask_pricing
+"I was wondering, can you fix oxidation",ask_paint_correction
+"how long does a ceramic coating take, by the way",ask_ceramic_coating
+"Hi, can you polish my car",ask_paint_correction
+"do you have a slot Sunday, by the way",book_appointment
+"Hi, give me a call later",callback_request
+"Just calling to ask, do you work on lifted trucks",ask_vehicle_support
+Quick question — do you work on Porsches,ask_vehicle_support
+there's a scratch that wasn't there before,complaint_or_issue
+"what time do you close on Friday, by the way",ask_hours
+Can you tell me do you do detailing on trucks,ask_services
+how much do you charge?,ask_pricing
+Can you tell me I'm thinking about a ceramic coating,ask_ceramic_coating
+"how much is ceramic coating, by the way",ask_ceramic_coating
+what do you charge for ceramic coating,request_quote
+"Hey, do you detail Teslas",ask_vehicle_support
+Can you tell me I need a detail ASAP,urgent_detail_request
+"Hey, what do you guys do",ask_services
+Can you tell me can someone ring me back,callback_request
+Can you tell me any openings this week,book_appointment
+Can you tell me what kind of detailing do you offer,ask_services
+"Hey, do you sell gift cards",general_question
+I want to take the swirls out before coating?,ask_paint_correction
+Quick question — where are you located,ask_location
+"I was wondering, do you come to me",ask_mobile_service
+"Hi, are you mobile",ask_mobile_service
+"Hey, what's a quote for a full detail on an SUV",request_quote
+"I was wondering, how much is just an exterior detail",ask_pricing
+bye?,goodbye
+good afternoon,greeting
+"can someone ring me back, by the way",callback_request
+"Hi, good evening",greeting
+does ceramic coating prevent scratches,ask_ceramic_coating
+I need a detail ASAP,urgent_detail_request
+what's your address,ask_location
+"good afternoon, by the way",greeting
+Quick question — I'm not happy with the result,complaint_or_issue
+what's included in a full detail,ask_services
+do you detail Teslas,ask_vehicle_support
+Quick question — how much is just an exterior detail,ask_pricing
+"Hi, do you service Newport Beach",ask_service_area
+"how long does a ceramic coating take, by the way",ask_ceramic_coating
+can I get a quote for my BMW,request_quote
+"Hey, what's your address",ask_location
+"Just calling to ask, what would it cost for interior and exterior",request_quote
+"Hey, what areas do you cover",ask_service_area
+Can you tell me how much is just an exterior detail,ask_pricing
+Quick question — do you do EVs,ask_vehicle_support
+"Just calling to ask, what do you charge for ceramic coating",request_quote
+Quick question — I need it detailed today,urgent_detail_request
+"I was wondering, I need my car detailed before the weekend",book_appointment
+what are your prices,ask_pricing
+"Hi, are you open on Sundays",ask_hours
+Quick question — I'm not happy with the result,complaint_or_issue
+what's your address please,ask_location
+"Hey, do you work on Porsches",ask_vehicle_support
+"Hey, do you work on Porsches",ask_vehicle_support
+what do you charge for ceramic coating,request_quote
+can you give me an estimate for paint correction,request_quote
+Quick question — how do I find your shop,ask_location
+any chance you can come out tonight please,urgent_detail_request
+Can you tell me how long does a ceramic coating take,ask_ceramic_coating
+"Hi, goodbye, see you",goodbye
+Can you tell me what's the difference between coating and wax,ask_ceramic_coating
+"can I get a refund, by the way",complaint_or_issue
+can you detail an exotic,ask_vehicle_support
+"I was wondering, what time can I bring my car in",book_appointment
+Can you tell me what's the difference between coating and wax,ask_ceramic_coating
+"Just calling to ask, how much do you charge",ask_pricing
+is detailing expensive?,ask_pricing
+"there's a scratch that wasn't there before, by the way",complaint_or_issue
+"Hi, do you service Costa Mesa",ask_service_area
+"Hi, what's the difference between coating and wax",ask_ceramic_coating
+"the interior still smells, by the way",complaint_or_issue
+what are your hours?,ask_hours
+"ballpark price for a maintenance wash, by the way",request_quote
+Quick question — there's a swirl mark you missed,complaint_or_issue
+"I was wondering, how much for a maintenance wash",ask_pricing
+"Hey, goodbye, see you",goodbye
+"Hey, good morning",greeting
+Quick question — do you offer graphene coatings,ask_ceramic_coating
+"appreciate it, talk later",goodbye
+good afternoon,greeting
+Can you tell me what part of town are you in,ask_location
+"Hi, do you service Newport Beach",ask_service_area
+"Hi, do you have a referral program",general_question
+"I was wondering, what are your prices",ask_pricing
+do you work on Porsches?,ask_vehicle_support
+"I was wondering, when do you close",ask_hours
+"do you have a referral program, by the way",general_question
+Quick question — how long does a ceramic coating take,ask_ceramic_coating
+hi there,greeting
+"I was wondering, do you offer engine bay cleaning",ask_services
+is detailing expensive,ask_pricing
+good morning please,greeting
+do you detail Teslas please,ask_vehicle_support
+"Hey, I need this done before tomorrow",urgent_detail_request
+"Hey, what are your prices",ask_pricing
+Can you tell me can you detail an exotic,ask_vehicle_support
+"Hi, I need this done before tomorrow",urgent_detail_request
+"how much is ceramic coating, by the way",ask_ceramic_coating
+"any chance you can come out tonight, by the way",urgent_detail_request
+I want to take the swirls out before coating?,ask_paint_correction
+"what's your address, by the way",ask_location
+"Hi, there's a swirl mark you missed",complaint_or_issue
+"I was wondering, do you have a referral program",general_question
+Quick question — hi there,greeting
+"Hi, do you service Newport Beach",ask_service_area
+"I was wondering, any openings this week",book_appointment
+"I was wondering, do you go out to Huntington Beach",ask_service_area
+"Hi, can you call me back",callback_request
+"goodbye, see you please",goodbye
+can you polish my car please,ask_paint_correction
+"goodbye, see you",goodbye
+my black car has scratches,ask_paint_correction
+"Hi, hi I have a quick question",greeting
+what are your prices please,ask_pricing
+"I was wondering, do you accept credit cards",general_question
+give me a call later please,callback_request
+Can you tell me how much to detail a Tesla Model 3,request_quote
+"Quick question — appreciate it, talk later",goodbye
+"Just calling to ask, I need my car detailed before the weekend",book_appointment
+my black car has scratches please,ask_paint_correction
+"Just calling to ask, what would it cost for interior and exterior",request_quote
+"the interior still smells, by the way",complaint_or_issue
+"what's your address, by the way",ask_location
+can you fix oxidation?,ask_paint_correction
+"Hey, what areas do you cover",ask_service_area
+"Hi, do you detail Teslas",ask_vehicle_support
+"Hi, what cities do you cover",ask_service_area
+what's your price range,ask_pricing
+there's a swirl mark you missed,complaint_or_issue
+do you sell gift cards please,general_question
+"Just calling to ask, appreciate it, talk later",goodbye
+Quick question — do you have anything tomorrow morning,book_appointment
+"thanks, that's all",goodbye
+can someone ring me back?,callback_request
+Quick question — do you offer graphene coatings,ask_ceramic_coating
+I'd like a callback please,callback_request
+what kind of detailing do you offer,ask_services
+"I was wondering, how much is ceramic coating",ask_ceramic_coating
+can you give me directions,ask_location
+"Hi, do you service Irvine",ask_mobile_service
+"Hey, can I schedule a detail next week",book_appointment
+"I was wondering, I need it detailed today",urgent_detail_request
+"goodbye, see you",goodbye
+Quick question — I need this done before tomorrow,urgent_detail_request
+"Quick question — appreciate it, talk later",goodbye
+Can you tell me what's your address,ask_location
+"Just calling to ask, how much for a maintenance wash",ask_pricing
+"Hey, I need it detailed today",urgent_detail_request
+"can you detail an exotic, by the way",ask_vehicle_support
+"I was wondering, what part of town are you in",ask_location
+do you offer subscriptions?,general_question
+can you give me directions please,ask_location
+"Just calling to ask, when do you close",ask_hours
+"do you service Newport Beach, by the way",ask_service_area
+can I get a quote for my BMW,request_quote
+Can you tell me do you guys travel out to Newport,ask_mobile_service
+is detailing expensive please,ask_pricing
+"Hi, can you polish my car",ask_paint_correction
+"Hi, can you fix oxidation",ask_paint_correction
+"Hi, I want to take the swirls out before coating",ask_paint_correction
+"I was wondering, can you give me directions",ask_location
+what services do you offer,ask_services
+"how long does a ceramic coating take, by the way",ask_ceramic_coating
+do you guys do ceramic coating,ask_ceramic_coating
+"can I schedule a detail next week, by the way",book_appointment
+Quick question — I'd want you to come to my place,ask_mobile_service
+"can you remove swirl marks, by the way",ask_paint_correction
+"Can you tell me appreciate it, talk later",goodbye
+"Hi, I need a detail ASAP",urgent_detail_request
+what time do you close on Friday please,ask_hours
+"I was wondering, what time do you open on Saturday",ask_hours
+"I was wondering, any chance you can come out tonight",urgent_detail_request
+Can you tell me do you sell gift cards,general_question
+"can you remove swirl marks, by the way",ask_paint_correction
+"Hi, where are you located",ask_location
+"Quick question — thanks, that's all",goodbye
+"do you come to me, by the way",ask_mobile_service
+give me a call later,callback_request
+"Just calling to ask, any chance you can come out tonight",urgent_detail_request
+"can I set up an appointment, by the way",book_appointment
+"Hi, can I get a refund",complaint_or_issue
+are you available Friday please,book_appointment
+"I was wondering, do you do detailing on trucks",ask_services
+do you have a referral program please,general_question
+"I was wondering, what services do you offer",ask_services
+there's a swirl mark you missed please,complaint_or_issue
+what's the cost of an interior detail,ask_pricing
+Can you tell me do you have a referral program,general_question
+Can you tell me where are you located,ask_location
+Can you tell me I'd like a callback,callback_request
+good morning,greeting
+Quick question — I need a detail ASAP,urgent_detail_request
+"I was wondering, can you fit me in today",urgent_detail_request
+I need my car detailed before the weekend,book_appointment
+can I get a quote for my BMW please,request_quote
+how much for a full detail?,request_quote
+"Just calling to ask, good afternoon",greeting
+"I was wondering, do you come to me",ask_mobile_service
+Can you tell me I'm not happy with the result,complaint_or_issue
+good afternoon?,greeting
+"what services do you offer, by the way",ask_services
+"what time can I bring my car in, by the way",book_appointment
+Quick question — is detailing expensive,ask_pricing
+"Just calling to ask, what cities do you cover",ask_service_area
+"Hi, what's your price range",ask_pricing
+"Just calling to ask, can you fix oxidation",ask_paint_correction
+is there a warranty on the coating,general_question
+"Hi, can you fix oxidation",ask_paint_correction
+do you do mobile detailing please,ask_mobile_service
+is there a warranty on the coating?,general_question
+"I was wondering, I need a detail ASAP",urgent_detail_request
+"Just calling to ask, how much is ceramic coating",ask_ceramic_coating
+Can you tell me the interior still smells,complaint_or_issue
+"Just calling to ask, goodbye, see you",goodbye
+what cities do you cover,ask_service_area
+Can you tell me can you give me directions,ask_location
+I need a detail ASAP?,urgent_detail_request
+"Hey, what areas do you cover",ask_service_area
+what's up,greeting
+"Just calling to ask, thanks, that's all",goodbye
+I'm thinking about a ceramic coating,ask_ceramic_coating
+"Hi, can you detail a minivan",ask_vehicle_support
+"I was wondering, do you do mobile detailing",ask_mobile_service
+what's the cost of an interior detail,ask_pricing
+"Hey, do you detail Teslas",ask_vehicle_support
+I need this done before tomorrow please,urgent_detail_request
+"Hi, tell me what packages you have",ask_services
+good afternoon please,greeting
+do you guys do ceramic coating?,ask_ceramic_coating
+what do you charge for ceramic coating?,request_quote
+"Just calling to ask, what's included in a full detail",ask_services
+"Hey, how much is just an exterior detail",ask_pricing
+I need my car detailed before the weekend,book_appointment
+Can you tell me can you fix oxidation,ask_paint_correction
+"thank you, have a good one",goodbye
+what are your hours,ask_hours
+"Just calling to ask, do you offer subscriptions",general_question
+bye,goodbye
+"do you offer subscriptions, by the way",general_question
+I'm not happy with the result,complaint_or_issue
+Quick question — are you open on Sundays,ask_hours
+is detailing expensive please,ask_pricing
+what do you guys do,ask_services
+"Hi, what's included in a full detail",ask_services
+"Just calling to ask, have somebody call me",callback_request
+"Hey, good evening",greeting
+"Hey, I'd want you to come to my place",ask_mobile_service
+Quick question — I'm not happy with the result,complaint_or_issue
+"Hi, bye",goodbye
+good afternoon,greeting
+Quick question — I need it detailed today,urgent_detail_request
+"thanks, that's all",goodbye
+have somebody call me,callback_request
+"I was wondering, thanks, that's all",goodbye
+"I was wondering, are you open on Sundays",ask_hours
+"Hi, what's the difference between coating and wax",ask_ceramic_coating
+"Hey, hello",greeting
+how much do you charge,ask_pricing
+I want to take the swirls out before coating,ask_paint_correction
+tell me what packages you have?,ask_services
+good afternoon?,greeting
+Can you tell me how much is just an exterior detail,ask_pricing
+"Just calling to ask, rough cost for ceramic coating on a sedan",request_quote
+how much for a full detail,request_quote
+Quick question — have somebody call me,callback_request
+"Hi, bye",goodbye
+"I was wondering, can I get a refund",complaint_or_issue
+"Just calling to ask, do you accept credit cards",general_question
+"are you open on Sundays, by the way",ask_hours
+"Hi, are you open today",ask_hours
+"Hey, do you offer graphene coatings",ask_ceramic_coating
+"Hi, can you call me back",callback_request
+good evening,greeting
+can you give me directions,ask_location
+are you open today?,ask_hours
+what time do you open on Saturday,ask_hours
+"Just calling to ask, I'd want you to come to my place",ask_mobile_service
+can you fix oxidation,ask_paint_correction
+rough cost for ceramic coating on a sedan please,request_quote
+"Hey, hi there",greeting
+"Hi, is detailing expensive",ask_pricing
+"Hey, how much is just an exterior detail",ask_pricing
+do you work on lifted trucks please,ask_vehicle_support
+Quick question — do you go out to Huntington Beach,ask_service_area
+any openings this week,book_appointment
+can you give me an estimate for paint correction,request_quote
+"have somebody call me, by the way",callback_request
+"I was wondering, I need my car detailed before the weekend",book_appointment
+"can I schedule a detail next week, by the way",book_appointment
+is detailing expensive please,ask_pricing
+do you sell gift cards please,general_question
+the interior still smells?,complaint_or_issue
+do you have a slot Sunday?,book_appointment
+"I was wondering, my black car has scratches",ask_paint_correction
+"I was wondering, I need it detailed today",urgent_detail_request
+"Just calling to ask, any chance you can come out tonight",urgent_detail_request
+I need it detailed today,urgent_detail_request
+"Quick question — thanks, that's all",goodbye
+Can you tell me give me a call later,callback_request
+"Hey, do you offer engine bay cleaning",ask_services
+Quick question — can you call me back,callback_request
+"Hey, I'm thinking about a ceramic coating",ask_ceramic_coating
+what's the difference between coating and wax,ask_ceramic_coating
+"Hi, where are you located",ask_location
+"Just calling to ask, the interior still smells",complaint_or_issue
+Can you tell me do you have anything tomorrow morning,book_appointment
+"Hi, I need my car detailed before the weekend",book_appointment
+"Just calling to ask, do you come to me",ask_mobile_service
+do you work on Porsches,ask_vehicle_support
+"Hi, I'm not happy with the result",complaint_or_issue
+"are you open today, by the way",ask_hours
+Quick question — how do I find your shop,ask_location
+do you offer subscriptions,general_question
+"Hey, can someone ring me back",callback_request
+Can you tell me I need it detailed today,urgent_detail_request
+do you guys travel out to Newport,ask_mobile_service
+do you do EVs,ask_vehicle_support
+"Hi, do you sell gift cards",general_question
+"Hi, do you have anything tomorrow morning",book_appointment
+"Just calling to ask, what's your price range",ask_pricing
+Quick question — have somebody call me,callback_request
+do you offer subscriptions?,general_question
+is ceramic coating worth it,ask_ceramic_coating
+Can you tell me what's your address,ask_location
+"Hi, do you come to me",ask_mobile_service
+what cities do you cover,ask_service_area
+"I want to take the swirls out before coating, by the way",ask_paint_correction
+"Just calling to ask, what's included in a full detail",ask_services
+do you go out to Huntington Beach,ask_service_area
+Quick question — do you guys do ceramic coating,ask_ceramic_coating
+can I get a refund please,complaint_or_issue
+Can you tell me when do you close,ask_hours
+"Hey, do you come to me",ask_mobile_service
+what part of town are you in?,ask_location
+what's your price range please,ask_pricing
+I need this done before tomorrow,urgent_detail_request
+what kind of detailing do you offer please,ask_services
+can I get a quote for my BMW,request_quote
+when do you close,ask_hours
+Quick question — are you open today,ask_hours
+Quick question — there's a scratch that wasn't there before,complaint_or_issue
+have somebody call me,callback_request
+do you do paint correction,ask_paint_correction
+do you offer engine bay cleaning please,ask_services
+can you call me back,callback_request
+"Just calling to ask, do you have a referral program",general_question
+I want to take the swirls out before coating?,ask_paint_correction
+"Just calling to ask, good morning",greeting
+how much do you charge?,ask_pricing
+"I was wondering, the interior still smells",complaint_or_issue
+there's a scratch that wasn't there before,complaint_or_issue
+"I was wondering, hi there",greeting
+do you have a slot Sunday,book_appointment
+"I was wondering, do you do interior and exterior",ask_services
+Can you tell me do you offer graphene coatings,ask_ceramic_coating
+what time do you open on Saturday?,ask_hours
+tell me what packages you have?,ask_services
+"Hi, what time do you close on Friday",ask_hours
+"Hi, what areas do you cover",ask_service_area
+Can you tell me do you work on lifted trucks,ask_vehicle_support
+how much is just an exterior detail?,ask_pricing
+"Hi, the interior still smells",complaint_or_issue
+how do I find your shop,ask_location
+"Just calling to ask, I need it detailed today",urgent_detail_request
+I'm not happy with the result,complaint_or_issue
+"thank you, have a good one?",goodbye
+"I was wondering, hi there",greeting
+Can you tell me do you sell gift cards,general_question
+can you detail a minivan,ask_vehicle_support
+can you fit me in today,urgent_detail_request
+"Hey, rough cost for ceramic coating on a sedan",request_quote
+Can you tell me do you service Irvine,ask_mobile_service
+"Hey, do you sell gift cards",general_question
+"hi I have a quick question, by the way",greeting
+what are your hours,ask_hours
+can you call me back please,callback_request
+where are you located please,ask_location
+are you open on Sundays,ask_hours
+"Hi, what part of town are you in",ask_location
+do you do EVs,ask_vehicle_support
+when do you close?,ask_hours
+Can you tell me can you detail at my house,ask_mobile_service
+"Hey, what cities do you cover",ask_service_area
+I'd want you to come to my place,ask_mobile_service
+"Hey, do you come to Anaheim",ask_service_area
+can you detail an exotic,ask_vehicle_support
+"what's included in a full detail, by the way",ask_services
+"I was wondering, have somebody call me",callback_request
+"I was wondering, do you service Costa Mesa",ask_service_area
+"give me a call later, by the way",callback_request
+what's included in a full detail?,ask_services
+can someone ring me back,callback_request
+"Hi, do you service Newport Beach",ask_service_area
+"I was wondering, what services do you offer",ask_services
+can you fix oxidation please,ask_paint_correction
+"I was wondering, I need it detailed today",urgent_detail_request
+what time do you close on Friday,ask_hours
+Can you tell me I'd want you to come to my place,ask_mobile_service
+Can you tell me do you have a referral program,general_question
+good morning?,greeting
+can you detail an exotic?,ask_vehicle_support
+Quick question — what's up,greeting
+what time do you close on Friday?,ask_hours
+"Just calling to ask, I'm thinking about a ceramic coating",ask_ceramic_coating
+"Just calling to ask, what are your hours",ask_hours
+"I was wondering, thank you, have a good one",goodbye
+"I was wondering, how much do you charge",ask_pricing
+can you call me back?,callback_request
+Quick question — can you detail a minivan,ask_vehicle_support
+where are you located please,ask_location
+do you come to me?,ask_mobile_service
+does ceramic coating prevent scratches?,ask_ceramic_coating
+what's the difference between coating and wax please,ask_ceramic_coating
+"Hey, goodbye, see you",goodbye
+there's a scratch that wasn't there before,complaint_or_issue
+what do you guys do,ask_services
+"Hi, do you go out to Huntington Beach",ask_service_area
+Can you tell me do you come to Anaheim,ask_service_area
+"Hi, do you have anything tomorrow morning",book_appointment
+"I'm not happy with the result, by the way",complaint_or_issue
+"Hi, I want to take the swirls out before coating",ask_paint_correction
+are you open on Sundays,ask_hours
+Can you tell me I'm thinking about a ceramic coating,ask_ceramic_coating
+can I get a refund please,complaint_or_issue
+"what time can I bring my car in, by the way",book_appointment
+"Hey, what part of town are you in",ask_location
+"Hey, is ceramic coating worth it",ask_ceramic_coating
+Quick question — what are your prices,ask_pricing
+"Hey, have somebody call me",callback_request
+Can you tell me how do I find your shop,ask_location
+"Hi, hey, how's it going",greeting
+"I was wondering, does ceramic coating prevent scratches",ask_ceramic_coating
+"Hey, do you have a referral program",general_question
+"Just calling to ask, bye",goodbye
+Can you tell me does ceramic coating prevent scratches,ask_ceramic_coating
+Can you tell me does ceramic coating prevent scratches,ask_ceramic_coating
+any openings this week?,book_appointment
+tell me what packages you have?,ask_services
+"Just calling to ask, can you remove swirl marks",ask_paint_correction
+can I get a quote for my BMW?,request_quote
+hi I have a quick question,greeting
+"Just calling to ask, what part of town are you in",ask_location
+is there a warranty on the coating please,general_question
+are you open today,ask_hours
+Quick question — do you detail Teslas,ask_vehicle_support
+"Just calling to ask, do you work on Porsches",ask_vehicle_support
+"Hi, do you service Newport Beach",ask_service_area
+when do you close please,ask_hours
+any openings this week?,book_appointment
+Can you tell me the interior still smells,complaint_or_issue
+Quick question — good morning,greeting
+"Can you tell me thank you, have a good one",goodbye
+can you give me directions please,ask_location
+"Hey, is detailing expensive",ask_pricing
+what time can I bring my car in,book_appointment
+my black car has scratches please,ask_paint_correction
+what time do you open on Saturday?,ask_hours
+Can you tell me do you guys do ceramic coating,ask_ceramic_coating
+"how much for a full detail, by the way",request_quote
+"I was wondering, hey",greeting
+I need it detailed today,urgent_detail_request
+"Just calling to ask, I'd want you to come to my place",ask_mobile_service
+have somebody call me,callback_request
+"I was wondering, there's a scratch that wasn't there before",complaint_or_issue
+Can you tell me can someone ring me back,callback_request
+"I was wondering, when do you close",ask_hours
+do you have a referral program,general_question
+"Hi, what are your prices",ask_pricing
+can you call me back?,callback_request
+where are you located,ask_location
+"I was wondering, appreciate it, talk later",goodbye
+"Hey, thanks, that's all",goodbye
+"Just calling to ask, what time can I bring my car in",book_appointment
+"Quick question — I've got a lot of water spots, can you fix that",ask_paint_correction
+Can you tell me do you go out to Huntington Beach,ask_service_area
+"Just calling to ask, is ceramic coating worth it",ask_ceramic_coating
+Quick question — I'm not happy with the result,complaint_or_issue
+Quick question — hello,greeting
+what's a quote for a full detail on an SUV?,request_quote
+"Just calling to ask, do you offer engine bay cleaning",ask_services
+"Just calling to ask, any openings this week",book_appointment
+Quick question — I'm not happy with the result,complaint_or_issue
+"I was wondering, any openings this week",book_appointment
+"Hi, do you accept credit cards",general_question
+"Just calling to ask, there's a scratch that wasn't there before",complaint_or_issue
+can I set up an appointment,book_appointment
+Quick question — I'd like a callback,callback_request
+Can you tell me rough cost for ceramic coating on a sedan,request_quote
+"Just calling to ask, do you sell gift cards",general_question
+"Hey, what are your hours",ask_hours
+"Just calling to ask, do you offer subscriptions",general_question
+"I was wondering, tell me what packages you have",ask_services
+"Just calling to ask, do you guys do ceramic coating",ask_ceramic_coating
+Quick question — do you guys travel out to Newport,ask_mobile_service
+"I was wondering, can someone ring me back",callback_request
+"Hey, can you detail at my house",ask_mobile_service
+Can you tell me can someone ring me back,callback_request
+"Hey, do you do mobile detailing",ask_mobile_service
+what's included in a full detail please,ask_services
+"I was wondering, what areas do you cover",ask_service_area
+I'd want you to come to my place please,ask_mobile_service
+Can you tell me what are your prices,ask_pricing
+"Hi, can you fix oxidation",ask_paint_correction
+what time do you open on Saturday?,ask_hours
+"I've got a lot of water spots, can you fix that",ask_paint_correction
+"Hi, can you remove swirl marks",ask_paint_correction
+"can I get a refund, by the way",complaint_or_issue
+what do you charge for ceramic coating,request_quote
+Quick question — do you work on lifted trucks,ask_vehicle_support
+what do you charge for ceramic coating please,request_quote
+"Hey, my black car has scratches",ask_paint_correction
+can you come to my apartment,ask_mobile_service
+"Hey, appreciate it, talk later",goodbye
+"do you work on lifted trucks, by the way",ask_vehicle_support
+"I was wondering, are you available Friday",book_appointment
+Can you tell me are you open on Sundays,ask_hours
+"Just calling to ask, can you detail at my house",ask_mobile_service
+I'm not happy with the result?,complaint_or_issue
+"I was wondering, are you available Friday",book_appointment
+"Hi, goodbye, see you",goodbye
+"I was wondering, do you come to Anaheim",ask_service_area
+Can you tell me what are your hours,ask_hours
+"goodbye, see you?",goodbye
+"goodbye, see you?",goodbye
+Quick question — do you go out to Huntington Beach,ask_service_area
+can you buff out scratches,ask_paint_correction
+can you give me directions?,ask_location
+"Hi, I need this done before tomorrow",urgent_detail_request
+"Just calling to ask, how much for a maintenance wash",ask_pricing
+Quick question — can you detail a minivan,ask_vehicle_support
+"Just calling to ask, I need my car detailed before the weekend",book_appointment
+"Hi, what's your address",ask_location
+I need a detail ASAP?,urgent_detail_request
+"I need this done before tomorrow, by the way",urgent_detail_request
+good morning please,greeting
+"I was wondering, what would it cost for interior and exterior",request_quote
+"good evening, by the way",greeting
+Quick question — hey,greeting
+what part of town are you in please,ask_location
+"can you detail at my house, by the way",ask_mobile_service
+Quick question — do you accept credit cards,general_question
+"I'd like a callback, by the way",callback_request
+"do you service Costa Mesa, by the way",ask_service_area
+"I was wondering, can you detail a minivan",ask_vehicle_support
+Can you tell me what services do you offer,ask_services
+"Hey, do you have a referral program",general_question
+"I was wondering, how do I find your shop",ask_location
+"do you service Newport Beach, by the way",ask_service_area
+what kind of detailing do you offer please,ask_services
+do you go out to Huntington Beach?,ask_service_area
+"Hey, I need it detailed today",urgent_detail_request
+"Hi, can you give me an estimate for paint correction",request_quote
+"Hi, can you give me directions",ask_location
+"appreciate it, talk later",goodbye
+do you do mobile detailing,ask_mobile_service
+do you come to Anaheim please,ask_service_area
+I'm not happy with the result please,complaint_or_issue

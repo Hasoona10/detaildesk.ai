@@ -1,0 +1,77 @@
+[
+  {"utterance": "What are your hours?", "intent": "ask_hours"},
+  {"utterance": "Are you open today?", "intent": "ask_hours"},
+  {"utterance": "What time do you close on Friday?", "intent": "ask_hours"},
+  {"utterance": "Are you open on Sundays?", "intent": "ask_hours"},
+  {"utterance": "When do you open on Saturday?", "intent": "ask_hours"},
+
+  {"utterance": "Where are you located?", "intent": "ask_location"},
+  {"utterance": "What's your address?", "intent": "ask_location"},
+  {"utterance": "How do I get to your shop?", "intent": "ask_location"},
+  {"utterance": "What part of Orange County are you in?", "intent": "ask_location"},
+
+  {"utterance": "Do you service Irvine?", "intent": "ask_service_area"},
+  {"utterance": "What cities do you cover?", "intent": "ask_service_area"},
+  {"utterance": "Do you come out to Newport Beach?", "intent": "ask_service_area"},
+  {"utterance": "Do you do mobile detailing in Costa Mesa?", "intent": "ask_service_area"},
+
+  {"utterance": "Do you come to me?", "intent": "ask_mobile_service"},
+  {"utterance": "Are you mobile?", "intent": "ask_mobile_service"},
+  {"utterance": "Can you detail at my apartment?", "intent": "ask_mobile_service"},
+  {"utterance": "Do you guys travel?", "intent": "ask_mobile_service"},
+
+  {"utterance": "What services do you offer?", "intent": "ask_services"},
+  {"utterance": "Do you guys do interior and exterior?", "intent": "ask_services"},
+  {"utterance": "What's included in a full detail?", "intent": "ask_services"},
+  {"utterance": "Do you do engine bay cleaning?", "intent": "ask_services"},
+
+  {"utterance": "How much do you charge for a full detail?", "intent": "ask_pricing"},
+  {"utterance": "What's the price for an interior detail?", "intent": "ask_pricing"},
+  {"utterance": "Is detailing expensive?", "intent": "ask_pricing"},
+  {"utterance": "How much for a maintenance wash?", "intent": "ask_pricing"},
+
+  {"utterance": "How much for a full detail on a Tesla Model 3?", "intent": "request_quote"},
+  {"utterance": "Can I get a quote for my BMW?", "intent": "request_quote"},
+  {"utterance": "What would it cost for interior and exterior on a truck?", "intent": "request_quote"},
+  {"utterance": "Ballpark estimate for ceramic coating?", "intent": "request_quote"},
+
+  {"utterance": "Do you guys do ceramic coating?", "intent": "ask_ceramic_coating"},
+  {"utterance": "How much is ceramic coating?", "intent": "ask_ceramic_coating"},
+  {"utterance": "Is ceramic coating scratch proof?", "intent": "ask_ceramic_coating"},
+  {"utterance": "Do you do graphene coatings?", "intent": "ask_ceramic_coating"},
+
+  {"utterance": "Can you remove swirl marks?", "intent": "ask_paint_correction"},
+  {"utterance": "My black car has scratches, can you fix that?", "intent": "ask_paint_correction"},
+  {"utterance": "Do you do paint correction?", "intent": "ask_paint_correction"},
+  {"utterance": "Can you polish out oxidation?", "intent": "ask_paint_correction"},
+
+  {"utterance": "Can I book for Saturday?", "intent": "book_appointment"},
+  {"utterance": "Do you have anything tomorrow morning?", "intent": "book_appointment"},
+  {"utterance": "Can I schedule a detail next week?", "intent": "book_appointment"},
+  {"utterance": "Are you available Friday?", "intent": "book_appointment"},
+
+  {"utterance": "Do you detail Teslas?", "intent": "ask_vehicle_support"},
+  {"utterance": "Do you work on lifted trucks?", "intent": "ask_vehicle_support"},
+  {"utterance": "Can you detail an exotic?", "intent": "ask_vehicle_support"},
+
+  {"utterance": "Can you call me back later?", "intent": "callback_request"},
+  {"utterance": "I'd like a callback when you have time.", "intent": "callback_request"},
+
+  {"utterance": "I need my car detailed today.", "intent": "urgent_detail_request"},
+  {"utterance": "Any chance you can come out tonight?", "intent": "urgent_detail_request"},
+
+  {"utterance": "I'm not happy with the result of my last detail.", "intent": "complaint_or_issue"},
+  {"utterance": "There's a scratch that wasn't there before.", "intent": "complaint_or_issue"},
+
+  {"utterance": "Do you accept credit cards?", "intent": "general_question"},
+  {"utterance": "Do you sell gift cards?", "intent": "general_question"},
+  {"utterance": "Is there a warranty on the coating?", "intent": "general_question"},
+
+  {"utterance": "Hello", "intent": "greeting"},
+  {"utterance": "Hi there", "intent": "greeting"},
+  {"utterance": "Hey, how's it going?", "intent": "greeting"},
+
+  {"utterance": "Thanks, that's all", "intent": "goodbye"},
+  {"utterance": "Bye", "intent": "goodbye"},
+  {"utterance": "See you, thanks!", "intent": "goodbye"}
+]

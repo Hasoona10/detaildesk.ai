@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DetailDesk AI — The AI Receptionist That Turns Missed Calls Into Booked Jobs</title>
+  <meta name="description" content="Built for auto detailers, tint shops, wrap shops, and mobile auto service businesses. Answers calls 24/7, captures vehicle details, books appointments, and texts you every new lead." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="styles.css?v=34" />
+</head>
+<body>
+
+  <!-- ============ HERO SHELL (dark cinematic nav + hero) ============ -->
+  <div class="hero-shell" id="top">
+    <div class="hero-shell-bg" aria-hidden="true"></div>
+    <div class="hero-shell-noise" aria-hidden="true"></div>
+    <div class="hero-shell-vignette" aria-hidden="true"></div>
+
+    <header class="nav nav--hero" id="site-nav">
+      <div class="container nav-inner">
+        <a class="logo logo--hero" href="#top">
+          <img src="assets/logo-icon.png" alt="" class="logo-icon-sm" aria-hidden="true" />
+          <span class="logo-wordmark">DetailDesk <em>AI</em></span>
+          <img src="assets/logo-lockup.png" alt="DetailDesk AI" class="logo-img logo-img-light" />
+        </a>
+        <nav class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#demo">Demo</a>
+          <a href="#integrations">Integrations</a>
+          <a href="#resources">Resources</a>
+        </nav>
+        <div class="nav-cta">
+          <a href="http://localhost:3002/inbox" class="nav-signin">Sign in</a>
+          <a href="#cta" class="btn btn-primary btn-sm btn-glow">Get started free &rarr;</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="demo">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-eyebrow">
+            <span class="hero-eyebrow-dot" aria-hidden="true"></span>
+            Lead recovery for LA &amp; OC auto service shops
+          </p>
+          <h1>
+            Missed calls become<br />
+            <span class="hero-title-accent">qualified leads.</span>
+          </h1>
+          <p class="hero-sub">
+            Forward unanswered calls to DetailDesk. The AI answers like your front
+            desk, captures vehicle and service details, quotes your price ranges,
+            and texts you a lead summary in seconds — while you're on the job.
+          </p>
+          <div class="hero-actions">
+            <a href="#cta" class="btn btn-primary btn-glow">Try it free &rarr;</a>
+            <a href="#features" class="btn-demo">
+              <span class="btn-demo-play" aria-hidden="true">&#9654;</span>
+              See live demo
+            </a>
+          </div>
+          <div class="hero-features">
+            <div class="hero-feature">
+              <span class="hero-feature-stat">27+</span>
+              <span class="hero-feature-label">Missed leads recovered</span>
+              <p>Per shop, avg. beta month</p>
+            </div>
+            <div class="hero-feature">
+              <span class="hero-feature-stat">$800–$1.5K</span>
+              <span class="hero-feature-label">Est. lead value</span>
+              <p>On ceramic &amp; coating calls</p>
+            </div>
+            <div class="hero-feature">
+              <span class="hero-feature-stat">&lt;60 sec</span>
+              <span class="hero-feature-label">Owner SMS summary</span>
+              <p>After every qualified call</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dashboard mockup -->
+        <div class="hero-mock">
+          <div class="hero-mock-pedestal" aria-hidden="true"></div>
+          <div class="hero-mock-glow" aria-hidden="true"></div>
+
+          <div class="hero-notif-toast">
+            <div class="hero-notif-icon" aria-hidden="true">&#128241;</div>
+            <div>
+              <div class="hero-notif-label">Owner SMS &middot; 58 sec ago</div>
+              <p>New lead: <strong>818-555-0192</strong> &mdash; Ceramic coating, Tesla Model 3, wants quote this week. Est. <strong>$800&ndash;$1,500</strong></p>
+            </div>
+          </div>
+
+          <div class="hero-stat-card">
+            <div class="hero-stat-label">Leads recovered</div>
+            <div class="hero-stat-value">27 <span class="hero-stat-delta">+35%</span></div>
+            <div class="hero-stat-chart" aria-hidden="true">
+              <span style="height:42%"></span>
+              <span style="height:58%"></span>
+              <span style="height:48%"></span>
+              <span style="height:72%"></span>
+              <span style="height:65%"></span>
+              <span style="height:80%"></span>
+              <span style="height:55%"></span>
+            </div>
+            <div class="hero-stat-days"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+          </div>
+
+          <div class="dash dash--float dash--hero">
+            <div class="dash-side">
+              <div class="dash-side-logo"><img src="assets/logo-icon.png" alt="" class="dash-side-icon" /></div>
+              <div class="dash-side-nav">
+                <div class="dash-side-item active">Inbox <span class="dash-side-badge">3</span></div>
+                <div class="dash-side-item">Calls</div>
+                <div class="dash-side-item">Texts <span class="dash-side-badge">2</span></div>
+                <div class="dash-side-item">Appointments</div>
+                <div class="dash-side-item">Analytics</div>
+                <div class="dash-side-item">Integrations</div>
+                <div class="dash-side-item">Settings</div>
+              </div>
+            </div>
+            <div class="dash-list">
+              <div class="dash-list-head">
+                <strong>Lead Inbox</strong>
+                <span class="dash-filter">All &#9662;</span>
+              </div>
+              <div class="dash-lead selected">
+                <div class="dash-lead-top"><strong>Jennifer Martinez</strong><span class="pill pill-new">New</span></div>
+                <div class="dash-lead-sub">Ceramic Coating &mdash; Tesla Model 3</div>
+                <div class="dash-lead-time">2 minutes ago</div>
+              </div>
+              <div class="dash-lead">
+                <div class="dash-lead-top"><strong>Michael Rodriguez</strong><span class="pill pill-warm">Warm</span></div>
+                <div class="dash-lead-sub">Paint Correction &mdash; BMW M4</div>
+                <div class="dash-lead-time">18 minutes ago</div>
+              </div>
+              <div class="dash-lead">
+                <div class="dash-lead-top"><strong>David Chen</strong><span class="pill pill-cool">Booked</span></div>
+                <div class="dash-lead-sub">Window Tint &mdash; Honda Accord</div>
+                <div class="dash-lead-time">1 hour ago</div>
+              </div>
+              <div class="dash-lead">
+                <div class="dash-lead-top"><strong>Sarah Kim</strong><span class="pill pill-warm">Quote</span></div>
+                <div class="dash-lead-sub">Full Detail &mdash; Range Rover</div>
+                <div class="dash-lead-time">3 hours ago</div>
+              </div>
+            </div>
+            <div class="dash-detail dash-detail--hero">
+              <div class="dash-detail-head">
+                <div>
+                  <strong>Jennifer Martinez</strong>
+                  <div class="dash-detail-phone">818-555-0192</div>
+                </div>
+                <span class="pill pill-new">New</span>
+              </div>
+              <div class="dash-detail-sub">Ceramic Coating &mdash; Tesla Model 3</div>
+              <div class="dash-tabs">
+                <span class="dash-tab active">AI Summary</span>
+                <span class="dash-tab">Call Transcript</span>
+                <span class="dash-tab">Details</span>
+              </div>
+              <div class="dash-summary">
+                Interested in ceramic coating for a Tesla Model 3. Wants
+                long-term protection and gloss. Available this Thursday or Friday.
+              </div>
+              <div class="dash-meta dash-meta--hero">
+                <div><span>Service</span>Ceramic Coating</div>
+                <div><span>Vehicle</span>Tesla Model 3</div>
+                <div><span>Time</span>This week</div>
+                <div><span>Lead Value</span><em class="dash-lead-value">$800&ndash;$1,500</em></div>
+              </div>
+              <div class="dash-actions">
+                <button class="btn btn-primary btn-sm">Call back</button>
+                <button class="btn btn-outline btn-sm">Text customer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============ TRUSTED STRIP (light) ============ -->
+  <section class="hero-trusted light-strip" aria-label="Service categories">
+    <div class="light-strip-fade light-strip-fade--top" aria-hidden="true"></div>
+    <div class="light-strip-fade light-strip-fade--bottom" aria-hidden="true"></div>
+    <div class="container hero-trusted-inner">
+      <p class="hero-trusted-label">Built for detailers, tint shops, wrap shops, PPF &amp; mobile auto services in LA/OC</p>
+      <div class="hero-trusted-grid">
+        <div class="hero-trusted-item">
+          <span class="hero-trusted-icon" aria-hidden="true">&#128663;</span>
+          <span>Detailers</span>
+        </div>
+        <div class="hero-trusted-item">
+          <span class="hero-trusted-icon" aria-hidden="true">&#127981;</span>
+          <span>Wrap Shops</span>
+        </div>
+        <div class="hero-trusted-item">
+          <span class="hero-trusted-icon" aria-hidden="true">&#10024;</span>
+          <span>Ceramic Coating</span>
+        </div>
+        <div class="hero-trusted-item">
+          <span class="hero-trusted-icon" aria-hidden="true">&#128736;</span>
+          <span>Paint Correction</span>
+        </div>
+        <div class="hero-trusted-item">
+          <span class="hero-trusted-icon" aria-hidden="true">&#128444;</span>
+          <span>Window Tint</span>
+        </div>
+        <div class="hero-trusted-item">
+          <span class="hero-trusted-icon" aria-hidden="true">&#128295;</span>
+          <span>PDR &amp; Body Shops</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS (dark flow section) ============ -->
+  <section class="flow-section" id="features">
+    <div class="flow-section-bg" aria-hidden="true"></div>
+    <div class="flow-section-noise" aria-hidden="true"></div>
+    <div class="flow-section-vignette" aria-hidden="true"></div>
+
+    <div class="container flow-section-inner">
+      <p class="flow-eyebrow">How lead recovery works</p>
+      <h2 class="flow-title">
+        Missed calls become<br />
+        <span class="flow-title-accent">qualified leads.</span>
+      </h2>
+      <p class="flow-sub">
+        A ceramic coating or paint correction call goes unanswered while you're
+        on a job. DetailDesk picks up, captures vehicle and service details, and
+        texts you a summary you can act on immediately.
+      </p>
+
+      <div class="flow-steps">
+        <!-- Step 1 -->
+        <div class="flow-step">
+          <div class="flow-card">
+            <div class="flow-call-ui">
+              <div class="flow-call-icon">&#128222;</div>
+              <div class="flow-call-number">(626) 555-0138</div>
+              <div class="flow-call-detail">Black Tesla Model 3 — Ceramic Coating inquiry</div>
+              <div class="flow-call-actions">
+                <span class="flow-call-decline">Decline</span>
+                <span class="flow-call-accept">Accept</span>
+              </div>
+            </div>
+          </div>
+          <h3 class="flow-step-title">A customer calls</h3>
+          <p class="flow-step-desc">Ceramic coating, tint, or mobile detail inquiry.</p>
+        </div>
+
+        <div class="flow-arrow" aria-hidden="true">&#8594;</div>
+
+        <!-- Step 2 -->
+        <div class="flow-step">
+          <div class="flow-card flow-card--spotlight">
+            <div class="flow-spotlight"></div>
+            <div class="flow-car" aria-hidden="true">
+              <svg viewBox="0 0 120 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 32h104l-6-14H14L8 32z" stroke="currentColor" stroke-width="1.5" fill="rgba(255,255,255,0.04)"/>
+                <circle cx="28" cy="34" r="6" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="92" cy="34" r="6" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M38 18h44l8 8H30l8-8z" stroke="currentColor" stroke-width="1.2" fill="rgba(255,255,255,0.03)"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="flow-step-title">You're busy on a job</h3>
+          <p class="flow-step-desc">Coating, correction, tint, or mobile detail — hands full.</p>
+        </div>
+
+        <div class="flow-arrow" aria-hidden="true">&#8594;</div>
+
+        <!-- Step 3 -->
+        <div class="flow-step">
+          <div class="flow-card">
+            <div class="flow-summary-ui">
+              <div class="flow-summary-head">
+                <span class="flow-summary-label">AI Summary</span>
+                <span class="pill pill-warm pill-warm--dark flow-pill">Warm lead</span>
+              </div>
+              <div class="flow-summary-rows">
+                <div><span class="flow-k">Name</span> Mike Rodriguez</div>
+                <div><span class="flow-k">Vehicle</span> Tesla Model 3 (Black)</div>
+                <div><span class="flow-k">Service</span> Ceramic Coating</div>
+                <div><span class="flow-k">When</span> Saturday morning</div>
+                <div><span class="flow-k">Range</span> $800 – $1,200</div>
+                <div><span class="flow-k">Urgency</span> High</div>
+              </div>
+            </div>
+          </div>
+          <h3 class="flow-step-title">DetailDesk answers</h3>
+          <p class="flow-step-desc">AI captures name, vehicle, service, and urgency.</p>
+        </div>
+
+        <div class="flow-arrow" aria-hidden="true">&#8594;</div>
+
+        <!-- Step 4 -->
+        <div class="flow-step">
+          <div class="flow-card">
+            <div class="flow-sms-ui">
+              <div class="flow-sms-bubble">
+                New lead: Mike Rodriguez, black Tesla Model 3, ceramic coating, wants Saturday morning.
+              </div>
+              <div class="flow-sms-actions">
+                <span class="flow-sms-btn flow-sms-btn--primary">Call back</span>
+                <span class="flow-sms-btn">Text customer</span>
+              </div>
+            </div>
+          </div>
+          <h3 class="flow-step-title">You get the lead</h3>
+          <p class="flow-step-desc">Instant SMS with full details and next steps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FLOW HIGHLIGHTS (light strip) ============ -->
+  <section class="flow-highlights-strip light-strip" aria-label="Key benefits">
+    <div class="light-strip-fade light-strip-fade--top light-strip-fade--deep" aria-hidden="true"></div>
+    <div class="light-strip-fade light-strip-fade--bottom light-strip-fade--deep" aria-hidden="true"></div>
+    <div class="container flow-highlights-inner">
+      <div class="flow-highlights">
+        <div class="flow-highlight">
+          <div class="flow-highlight-icon">&#128222;</div>
+          <h4>Calls answered while you work</h4>
+          <p>Forward on busy or no-answer. The AI only picks up calls you would have missed anyway.</p>
+        </div>
+        <div class="flow-highlight">
+          <div class="flow-highlight-icon">&#128663;</div>
+          <h4>Vehicle, service &amp; price range captured</h4>
+          <p>Ceramic coating, paint correction, tint, PPF — qualified with your real pricing ranges.</p>
+        </div>
+        <div class="flow-highlight">
+          <div class="flow-highlight-icon">&#128241;</div>
+          <h4>Owner gets SMS in seconds</h4>
+          <p>Name, phone, vehicle, service, urgency, and estimated job value — ready to call back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CALL SUMMARIES (dark premium section) ============ -->
+  <section class="summaries-section">
+    <div class="summaries-section-bg" aria-hidden="true"></div>
+    <div class="summaries-section-noise" aria-hidden="true"></div>
+    <div class="summaries-section-vignette" aria-hidden="true"></div>
+
+    <div class="container summaries-inner">
+      <div class="summaries-grid">
+        <div class="summaries-copy">
+          <p class="summaries-eyebrow">Lead recovery workflow</p>
+          <h2 class="summaries-title">
+            Every caller becomes a<br />
+            <span class="summaries-title-accent">structured lead record.</span>
+          </h2>
+          <p class="summaries-desc">
+            Missed calls become qualified leads — vehicle, service, urgency,
+            transcript, summary, estimated value, and next step — the moment the
+            call ends.
+          </p>
+          <ul class="summaries-bullets">
+            <li>
+              <span class="summaries-bullet-icon" aria-hidden="true">&#10022;</span>
+              <div>
+                <strong>AI-powered call summaries</strong>
+                <p>Get the key details and intent captured automatically.</p>
+              </div>
+            </li>
+            <li>
+              <span class="summaries-bullet-icon" aria-hidden="true">&#128663;</span>
+              <div>
+                <strong>Vehicle and service details</strong>
+                <p>Know what they drive, what they want, and how urgent it is.</p>
+              </div>
+            </li>
+            <li>
+              <span class="summaries-bullet-icon" aria-hidden="true">&#128172;</span>
+              <div>
+                <strong>Transcript included</strong>
+                <p>See exactly what the caller said and how the AI responded.</p>
+              </div>
+            </li>
+            <li>
+              <span class="summaries-bullet-icon" aria-hidden="true">&#9889;</span>
+              <div>
+                <strong>Respond faster</strong>
+                <p>Use suggested replies, call-back buttons, and next steps to close more jobs.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="summaries-visual">
+          <div class="summaries-visual-glow" aria-hidden="true"></div>
+          <div class="lead-card">
+            <div class="lead-card-head">
+              <div class="lead-card-identity">
+                <div class="lead-card-avatar">SK</div>
+                <div>
+                  <strong class="lead-card-name">Sarah Kim</strong>
+                  <div class="lead-card-phone">949-555-0142</div>
+                </div>
+              </div>
+              <span class="lead-card-badge">Quote requested</span>
+            </div>
+
+            <div class="lead-card-fields">
+              <div class="lead-field">
+                <span class="lead-field-label">&#128663; Vehicle</span>
+                <span class="lead-field-value">BMW M4 — black</span>
+              </div>
+              <div class="lead-field">
+                <span class="lead-field-label">&#128736; Service</span>
+                <span class="lead-field-value">Paint Correction</span>
+              </div>
+              <div class="lead-field">
+                <span class="lead-field-label">&#128337; Urgency</span>
+                <span class="lead-field-value">Next week</span>
+              </div>
+              <div class="lead-field">
+                <span class="lead-field-label">&#128176; Estimated value</span>
+                <span class="lead-field-value lead-field-value--em">$600 – $1,200</span>
+              </div>
+              <div class="lead-field lead-field--full">
+                <span class="lead-field-label">Status</span>
+                <span class="lead-status-pill">&#128293; Warm lead</span>
+              </div>
+            </div>
+
+            <div class="lead-card-block">
+              <div class="lead-block-label">&#129302; AI Summary</div>
+              <p>Asked about removing swirl marks on black paint. Wants quote and availability next week.</p>
+            </div>
+
+            <div class="lead-card-block lead-card-block--transcript">
+              <div class="lead-block-label">&#128172; Transcript preview</div>
+              <p>&ldquo;There are swirl marks all over the hood — what would it cost to fix, and how soon could you get me in?&rdquo;</p>
+            </div>
+
+            <div class="lead-card-actions">
+              <span class="lead-action-btn lead-action-btn--primary">&#128222; Call back</span>
+              <span class="lead-action-btn">&#128172; Text customer</span>
+              <span class="lead-action-btn">&#128197; Mark follow-up</span>
+            </div>
+          </div>
+
+          <div class="summaries-sms-toast">
+            <div class="summaries-sms-time">2m ago</div>
+            <p>
+              New lead: Sarah Kim. Wants paint correction for a black BMW M4.
+              Wants quote next week. <span class="summaries-sms-link">949-555-0142</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST STRIP (light band between summaries & settings) ============ -->
+  <section class="settings-trust light-strip" aria-label="Lead recovery outcomes">
+    <div class="light-strip-fade light-strip-fade--top" aria-hidden="true"></div>
+    <div class="light-strip-fade light-strip-fade--bottom" aria-hidden="true"></div>
+    <div class="container settings-trust-inner">
+      <p class="settings-trust-headline">Missed calls become qualified leads — here&rsquo;s what LA/OC shops are seeing in beta.</p>
+      <div class="settings-trust-grid">
+        <div class="settings-trust-item"><span>&#128200;</span> 27+ missed leads recovered / mo</div>
+        <div class="settings-trust-item"><span>&#128176;</span> $12K+ estimated lead value captured</div>
+        <div class="settings-trust-item"><span>&#128222;</span> Calls answered while you work</div>
+        <div class="settings-trust-item"><span>&#128241;</span> Owner SMS summary in seconds</div>
+        <div class="settings-trust-item"><span>&#128205;</span> LA &amp; OC shops in beta now</div>
+        <div class="settings-trust-item"><span>&#9889;</span> Setup in under a day</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SETTINGS (configure from one screen) ============ -->
+  <section class="settings-section" id="integrations">
+    <div class="settings-section-bg" aria-hidden="true"></div>
+    <div class="settings-section-noise" aria-hidden="true"></div>
+    <div class="settings-section-vignette" aria-hidden="true"></div>
+
+    <div class="container settings-inner">
+      <div class="settings-layout">
+        <div class="settings-copy">
+          <p class="settings-eyebrow">Setup in minutes</p>
+          <h2 class="settings-title">
+            Configure everything from<br />
+            <span class="settings-title-accent">one screen.</span>
+          </h2>
+          <p class="settings-desc">
+            This is your AI receptionist control panel. Every setting trains how
+            DetailDesk answers calls, quotes your services, captures leads, and
+            decides when to text you or transfer a hot caller.
+          </p>
+          <ul class="settings-explainer">
+            <li>
+              <span class="settings-explainer-icon" aria-hidden="true">&#128736;</span>
+              <div>
+                <strong>Settings rows</strong>
+                <p>Set your greeting, services, price ranges, booking link, transfer number, and after-hours rules.</p>
+              </div>
+            </li>
+            <li>
+              <span class="settings-explainer-icon" aria-hidden="true">&#128172;</span>
+              <div>
+                <strong>Live AI preview</strong>
+                <p>See the exact greeting and answers callers hear before you turn it on.</p>
+              </div>
+            </li>
+            <li>
+              <span class="settings-explainer-icon" aria-hidden="true">&#9989;</span>
+              <div>
+                <strong>Caller experience</strong>
+                <p>Check what every caller gets: pricing info, booking links, urgent transfer, and after-hours capture.</p>
+              </div>
+            </li>
+            <li>
+              <span class="settings-explainer-icon" aria-hidden="true">&#127970;</span>
+              <div>
+                <strong>Business profile</strong>
+                <p>Your shop name, service type, coverage area, and hours — referenced on every call.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="settings-mock-wrap">
+      <div class="settings-mock">
+        <div class="settings-mock-glow" aria-hidden="true"></div>
+
+        <aside class="settings-nav">
+          <div class="settings-nav-logo"><img src="assets/logo-icon.png" alt="" /></div>
+          <nav class="settings-nav-links">
+            <span class="settings-nav-item">&#128202; Dashboard</span>
+            <span class="settings-nav-item">&#128222; Calls</span>
+            <span class="settings-nav-item">&#128100; Leads</span>
+            <span class="settings-nav-item">&#128197; Appointments</span>
+            <span class="settings-nav-item">&#128172; Messaging</span>
+            <span class="settings-nav-item active">&#9881; Settings</span>
+            <span class="settings-nav-item">&#129302; AI Training</span>
+            <span class="settings-nav-item">&#128279; Integrations</span>
+          </nav>
+          <div class="settings-help-card">
+            <strong>Need help?</strong>
+            <p>Our team can set up your AI receptionist for you.</p>
+            <span class="settings-help-btn">&#127911; Contact support</span>
+          </div>
+        </aside>
+
+        <div class="settings-main">
+          <h2 class="settings-main-title">AI Receptionist Settings</h2>
+          <p class="settings-main-sub">Each row below controls one part of the call experience. Edit any field and the AI updates instantly.</p>
+
+          <div class="settings-rows">
+            <div class="settings-row settings-row--full">
+              <span class="settings-row-icon">&#127908;</span>
+              <div class="settings-row-body">
+                <span class="settings-row-label">Greeting</span>
+                <span class="settings-row-value">&ldquo;Thanks for calling OC Elite Detailing. How can we help with your vehicle today?&rdquo;</span>
+              </div>
+              <span class="settings-row-chevron" aria-hidden="true">&#8250;</span>
+            </div>
+            <div class="settings-row">
+              <span class="settings-row-icon">&#128663;</span>
+              <div class="settings-row-body">
+                <span class="settings-row-label">Services</span>
+                <span class="settings-row-value">Ceramic coating, paint correction, tint, PPF</span>
+              </div>
+              <span class="settings-row-chevron" aria-hidden="true">&#8250;</span>
+            </div>
+            <div class="settings-row">
+              <span class="settings-row-icon">&#128176;</span>
+              <div class="settings-row-body">
+                <span class="settings-row-label">Price ranges</span>
+                <span class="settings-row-value">Coating $800&ndash;$1,500 &middot; Correction $400&ndash;$1,200</span>
+              </div>
+              <span class="settings-row-chevron" aria-hidden="true">&#8250;</span>
+            </div>
+            <div class="settings-row">
+              <span class="settings-row-icon">&#128205;</span>
+              <div class="settings-row-body">
+                <span class="settings-row-label">Service radius</span>
+                <span class="settings-row-value">25 miles &mdash; mobile OK</span>
+              </div>
+              <span class="settings-row-chevron" aria-hidden="true">&#8250;</span>
+            </div>
+            <div class="settings-row">
+              <span class="settings-row-icon">&#128279;</span>
+              <div class="settings-row-body">
+                <span class="settings-row-label">Booking link</span>
+                <span class="settings-row-value settings-row-value--link">ocelite.com/book &#8599;</span>
+              </div>
+              <span class="settings-row-chevron" aria-hidden="true">&#8250;</span>
+            </div>
+            <div class="settings-row">
+              <span class="settings-row-icon">&#128222;</span>
+              <div class="settings-row-body">
+                <span class="settings-row-label">Transfer urgent calls</span>
+                <span class="settings-row-value">(714) 555-0188</span>
+              </div>
+              <span class="settings-row-chevron" aria-hidden="true">&#8250;</span>
+            </div>
+            <div class="settings-row">
+              <span class="settings-row-icon">&#127769;</span>
+              <div class="settings-row-body">
+                <span class="settings-row-label">After hours</span>
+                <span class="settings-row-value">AI answers &amp; captures lead</span>
+              </div>
+              <span class="settings-row-chevron" aria-hidden="true">&#8250;</span>
+            </div>
+            <div class="settings-row settings-row--full">
+              <span class="settings-row-icon">&#128737;</span>
+              <div class="settings-row-body">
+                <span class="settings-row-label">Spam filtering</span>
+                <span class="settings-row-value">On &mdash; robocalls blocked</span>
+              </div>
+              <span class="settings-toggle settings-toggle--on" aria-hidden="true"><span></span></span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="settings-aside">
+          <div class="settings-panel">
+            <div class="settings-panel-label">AI Preview</div>
+            <p class="settings-panel-desc">Updates live as you edit your greeting and FAQs.</p>
+            <div class="settings-preview-bubble">
+              &ldquo;Thanks for calling OC Elite Detailing. How can we help with your vehicle today?&rdquo;
+            </div>
+          </div>
+          <div class="settings-panel">
+            <div class="settings-panel-label">What callers will get</div>
+            <p class="settings-panel-desc">Every qualified call includes these outcomes automatically.</p>
+            <ul class="settings-checklist">
+              <li><strong>Instant answers</strong> &mdash; FAQs, hours, and service info</li>
+              <li><strong>Service &amp; pricing info</strong> &mdash; your real ranges, not guesses</li>
+              <li><strong>Booking link</strong> &mdash; sent when they want to schedule</li>
+              <li><strong>Urgent call transfer</strong> &mdash; hot leads reach you live</li>
+              <li><strong>After-hours capture</strong> &mdash; leads saved when you&rsquo;re closed</li>
+            </ul>
+          </div>
+          <div class="settings-panel">
+            <div class="settings-panel-label">Business info</div>
+            <p class="settings-panel-desc">Shop details the AI references on every conversation.</p>
+            <ul class="settings-info-list">
+              <li><span>&#127970;</span> OC Elite Detailing</li>
+              <li><span>&#128663;</span> Mobile &amp; Shop Service</li>
+              <li><span>&#128205;</span> Serving OC &amp; LA County</li>
+              <li><span>&#128337;</span> Mon&ndash;Sun: 8AM&ndash;7PM</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES TRUST (light strip) ============ -->
+  <section class="features-trust light-strip" aria-label="Lead recovery outcomes">
+    <div class="light-strip-fade light-strip-fade--top" aria-hidden="true"></div>
+    <div class="light-strip-fade light-strip-fade--bottom light-strip-fade--deep" aria-hidden="true"></div>
+    <div class="container features-trust-inner">
+      <div class="features-trust-grid">
+        <div class="features-trust-item"><span>&#128200;</span> Missed leads recovered</div>
+        <div class="features-trust-item"><span>&#128176;</span> Estimated lead value on every call</div>
+        <div class="features-trust-item"><span>&#128222;</span> Answered while you&rsquo;re on the job</div>
+        <div class="features-trust-item"><span>&#128241;</span> Owner SMS in seconds</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURE GRID (dark premium) ============ -->
+  <section class="features-section" id="resources">
+    <div class="features-section-bg" aria-hidden="true"></div>
+    <div class="features-section-noise" aria-hidden="true"></div>
+    <div class="features-section-vignette" aria-hidden="true"></div>
+
+    <div class="container features-inner">
+      <header class="features-header">
+        <p class="flow-eyebrow">Lead recovery toolkit</p>
+        <h2 class="features-title">
+          Missed calls become<br />
+          <span class="features-title-accent">qualified leads.</span>
+        </h2>
+        <p class="features-sub">
+          From missed-call forwarding to vehicle capture, transcripts, and owner
+          SMS alerts — the full stack for detailers, tint shops, wrap shops, and
+          mobile auto services.
+        </p>
+      </header>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--cyan">&#128337;</div>
+          <div><h4>24/7 call answering</h4><p>Every call answered on the first ring. Day, night, weekends, holidays.</p></div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--cyan">&#128257;</div>
+          <div><h4>Missed-call forwarding</h4><p>Forward on busy or no-answer. The AI only picks up when you can't.</p></div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--orange">&#128221;</div>
+          <div><h4>Call summaries</h4><p>Who called, what they drive, what they need — in three lines.</p></div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--purple">&#128196;</div>
+          <div><h4>Full transcripts</h4><p>Every word, searchable in your lead inbox.</p></div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--pink">&#128241;</div>
+          <div><h4>SMS owner alerts</h4><p>Your phone buzzes with the lead the second the call ends.</p></div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--chart">&#128202;</div>
+          <div><h4>Lead inbox</h4><p>Every enquiry as a lead card — vehicle, service, urgency, status.</p></div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--blue">&#128197;</div>
+          <div><h4>Appointment requests</h4><p>Preferred day and time captured on every qualified call.</p></div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--purple">&#127891;</div>
+          <div><h4>Custom FAQs</h4><p>Your top questions, answered your way, every time.</p></div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--green">&#128176;</div>
+          <div><h4>Service pricing ranges</h4><p>Quotes honest ranges — never invents exact prices.</p></div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--cyan">&#8644;</div>
+          <div><h4>Call transfer rules</h4><p>Urgent calls forwarded to you or your team. You set the triggers.</p></div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--red">&#128683;</div>
+          <div><h4>Spam filtering</h4><p>Telemarketers and robocalls blocked before they reach you.</p></div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-icon feature-card-icon--violet">&#128172;</div>
+          <div><h4>Website chat widget</h4><p>The same AI captures leads from your website, not just your phone.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOUNDER QUOTE (light strip) ============ -->
+  <section class="quote-section light-strip">
+    <div class="light-strip-fade light-strip-fade--top light-strip-fade--deep" aria-hidden="true"></div>
+    <div class="light-strip-fade light-strip-fade--bottom" aria-hidden="true"></div>
+
+    <div class="container quote-inner">
+      <div class="quote-card">
+        <div class="quote-mark" aria-hidden="true">&#8220;</div>
+        <blockquote>
+          As a former detailer, I built this because missed calls used to cost me
+          real jobs. A ceramic coating lead that goes to voicemail books with the
+          next shop that picks up.
+        </blockquote>
+        <div class="quote-attr">
+          <span class="quote-avatar" aria-hidden="true">H</span>
+          <div>
+            <strong>Hasan</strong>
+            <span>Founder, DetailDesk AI</span>
+          </div>
+        </div>
+      </div>
+      <p class="quote-note">Customer testimonials coming soon — beta program running now in LA/OC.</p>
+    </div>
+  </section>
+
+  <!-- ============ PRICING (dark premium) ============ -->
+  <section class="pricing-section" id="pricing">
+    <div class="pricing-section-bg" aria-hidden="true"></div>
+    <div class="pricing-section-noise" aria-hidden="true"></div>
+    <div class="pricing-section-vignette" aria-hidden="true"></div>
+
+    <div class="container pricing-inner">
+      <header class="pricing-header">
+        <p class="pricing-eyebrow">Pricing</p>
+        <h2 class="pricing-title">
+          Simple pricing.<br />
+          <span class="pricing-title-accent">One saved job covers it.</span>
+        </h2>
+        <p class="pricing-sub">
+          One saved ceramic coating or paint correction job covers the month.
+          Built for detailers, tint shops, wrap shops, PPF shops, and mobile
+          auto services in LA/OC.
+        </p>
+      </header>
+
+      <div class="pricing">
+        <div class="price-card">
+          <div class="price-icon" aria-hidden="true">&#128222;</div>
+          <h3>Starter</h3>
+          <div class="price"><sup>$</sup>149<span>/mo</span></div>
+          <ul>
+            <li>Missed-call answering 24/7</li>
+            <li>Owner SMS summaries</li>
+            <li>Lead capture (name, phone, vehicle, service, urgency)</li>
+            <li>Dedicated local number</li>
+          </ul>
+          <a href="#cta" class="btn btn-outline btn-dark-outline btn-block">Start free &rarr;</a>
+        </div>
+        <div class="price-card price-featured">
+          <div class="price-badge"><span aria-hidden="true">&#10022;</span> Most popular</div>
+          <div class="price-icon price-icon--featured" aria-hidden="true">&#128200;</div>
+          <h3>Growth</h3>
+          <div class="price"><sup>$</sup>299<span>/mo</span></div>
+          <ul>
+            <li>Everything in Starter</li>
+            <li>Lead inbox + full transcripts</li>
+            <li>Booking links by text</li>
+            <li>Custom FAQ training</li>
+            <li>Spam filtering</li>
+          </ul>
+          <a href="#cta" class="btn btn-primary btn-glow btn-block">Start free &rarr;</a>
+        </div>
+        <div class="price-card">
+          <div class="price-icon" aria-hidden="true">&#128142;</div>
+          <h3>Pro</h3>
+          <div class="price"><sup>$</sup>499<span>/mo</span></div>
+          <ul>
+            <li>Everything in Growth</li>
+            <li>Custom workflows + transfer rules</li>
+            <li>Bilingual English/Spanish</li>
+            <li>Website chat widget</li>
+            <li>Priority local support</li>
+          </ul>
+          <a href="#cta" class="btn btn-outline btn-dark-outline btn-block">Talk to us &rarr;</a>
+        </div>
+      </div>
+
+      <div class="pricing-beta">
+        <p>
+          <strong>LA/OC beta:</strong> first 20 shops get Growth for <strong>$99/mo</strong>
+          in exchange for feedback and a testimonial.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="container container-narrow">
+      <h2 class="section-title">Frequently asked questions.</h2>
+      <details class="faq-item" open>
+        <summary>What is DetailDesk AI?</summary>
+        <p>A voice AI that picks up your business calls, handles the conversation, captures the lead, and texts you a summary. Works 24/7. Trained on your services and pricing.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Do I have to change my phone number?</summary>
+        <p>No. Keep your number and forward calls on busy/no-answer, after hours, or full-time — you choose. The AI only answers what you'd otherwise miss.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How does it handle pricing questions?</summary>
+        <p>It quotes your real price ranges (e.g. "ceramic coating typically runs $800–$1,500 depending on paint condition") and never invents exact prices. Anything uncertain becomes a captured lead for you to call back.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Is call recording legal in California?</summary>
+        <p>California is an all-party consent state (Penal Code &sect;632). DetailDesk AI's greeting discloses up front that the call may be recorded and handled by an AI assistant, so callers consent by continuing. We set this up correctly for you by default.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What about texting customers?</summary>
+        <p>Summaries texted to you (the owner) are transactional. Any texting to your customers follows TCPA consent rules — the AI only texts callers who ask for a link or opt in, and every thread honors STOP/HELP.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How fast is setup?</summary>
+        <p>Under a day. We're local — for LA/OC shops we'll do the setup with you, in person if you want.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="cta-final cta-final--dark" id="cta">
+    <div class="cta-final-bg" aria-hidden="true"></div>
+    <div class="cta-final-noise" aria-hidden="true"></div>
+    <div class="cta-final-vignette" aria-hidden="true"></div>
+    <div class="container cta-final-inner">
+      <div class="cta-final-card">
+        <p class="cta-final-eyebrow">Start recovering missed leads</p>
+        <h2 class="cta-final-title">
+          Your next missed call could be your<br />
+          <span class="cta-final-accent">next ceramic coating customer.</span>
+        </h2>
+        <p class="cta-final-sub">
+          Forward unanswered calls, get qualified leads with vehicle and service
+          details, and receive an owner SMS summary in seconds.
+        </p>
+        <div class="cta-final-actions">
+          <a href="http://localhost:3002/inbox" class="btn btn-primary btn-lg btn-glow">Try it free &rarr;</a>
+          <a href="#pricing" class="btn btn-outline btn-dark-outline btn-lg">See pricing</a>
+        </div>
+        <ul class="cta-final-trust" aria-label="Lead recovery outcomes">
+          <li>27+ missed leads recovered / mo</li>
+          <li>Lead value on every qualified call</li>
+          <li>Owner SMS summary in seconds</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="#top"><img src="assets/logo-lockup.png" alt="DetailDesk AI" class="logo-img logo-img-footer" /></a>
+        <p class="footer-tag">The AI receptionist that turns missed calls into booked jobs. Built for auto service businesses in Southern California.</p>
+      </div>
+      <div>
+        <h5>Product</h5>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#demo">Demo</a>
+      </div>
+      <div>
+        <h5>Support</h5>
+        <a href="tel:+17142783407">(714) 278-3407</a>
+        <a href="mailto:hello@detaildesk.ai">hello@detaildesk.ai</a>
+      </div>
+      <div>
+        <h5>Legal</h5>
+        <a href="#faq">Recording disclosure</a>
+        <a href="#faq">SMS consent</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      &copy; 2026 DetailDesk AI &middot; Los Angeles, CA
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var nav = document.getElementById("site-nav");
+      var hero = document.querySelector(".hero-shell");
+      if (!nav || !hero || !("IntersectionObserver" in window)) return;
+      new IntersectionObserver(
+        function (entries) {
+          var onHero = entries[0].isIntersecting;
+          nav.classList.toggle("nav--hero", onHero);
+          nav.classList.toggle("nav--light", !onHero);
+        },
+        { threshold: 0, rootMargin: "-72px 0px 0px 0px" }
+      ).observe(hero);
+    })();
+  </script>
+
+</body>
+</html>

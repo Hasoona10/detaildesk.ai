@@ -1,0 +1,286 @@
+{
+  "business_id": "oc_elite_detailing",
+  "business_name": "OC Elite Detailing",
+  "short_name": "OC Elite",
+  "business_type": "auto_detailing",
+  "description": "OC Elite Detailing is a mobile and shop-based auto detailing service in Orange County, CA. We specialize in interior and exterior detailing, paint correction, and ceramic coatings for cars, SUVs, and trucks.",
+  "category": "Auto Detailing",
+  "address": {
+    "street": "1420 Industrial Way",
+    "city": "Santa Ana",
+    "state": "CA",
+    "zip": "92705",
+    "country": "USA"
+  },
+  "contact": {
+    "phone": "(714) 555-7280",
+    "phone_bookings": "(714) 555-7280",
+    "email": "hello@ocelitedetailing.com",
+    "website": "https://www.ocelitedetailing.com",
+    "instagram": "@ocelitedetailing",
+    "facebook": "https://www.facebook.com/ocelitedetailing"
+  },
+  "hours": {
+    "monday": "8:00 am – 6:00 pm",
+    "tuesday": "8:00 am – 6:00 pm",
+    "wednesday": "8:00 am – 6:00 pm",
+    "thursday": "8:00 am – 6:00 pm",
+    "friday": "8:00 am – 6:00 pm",
+    "saturday": "9:00 am – 4:00 pm",
+    "sunday": "closed"
+  },
+  "is_open_24_7": false,
+  "location_info": {
+    "parking": "Customer parking available on-site for shop appointments.",
+    "landmarks": "Located in the OC Auto District just off the 55 freeway, near several tuning and tire shops.",
+    "entrance_notes": "Drive into the second bay on the right; check in at the front office."
+  },
+  "languages_supported": [
+    "English",
+    "Spanish"
+  ],
+  "mobile_service": {
+    "available": true,
+    "service_radius_miles": 25,
+    "service_area_examples": [
+      "Anaheim",
+      "Santa Ana",
+      "Irvine",
+      "Tustin",
+      "Costa Mesa",
+      "Newport Beach",
+      "Huntington Beach",
+      "Orange",
+      "Fullerton",
+      "Garden Grove"
+    ],
+    "requirements": "Mobile service requires access to a flat parking area. Water and power are preferred but we can bring our own for most jobs.",
+    "weather_policy": "Mobile appointments may be rescheduled in heavy rain or extreme heat for vehicle and product safety."
+  },
+  "service_options": {
+    "mobile_service": true,
+    "shop_service": true,
+    "ceramic_coating": true,
+    "paint_correction": true,
+    "interior_detailing": true,
+    "exterior_detailing": true,
+    "maintenance_wash": true,
+    "headlight_restoration": false,
+    "engine_bay_detail": true,
+    "pet_hair_removal": true
+  },
+  "services": [
+    {
+      "name": "Interior Detail",
+      "category": "Interior",
+      "price_min": 120,
+      "price_max": 220,
+      "duration_hours_min": 2,
+      "duration_hours_max": 4,
+      "description": "Deep interior clean: full vacuum, steam clean, wipe down all plastics, glass, and door jambs. Leather conditioning included on leather interiors.",
+      "notes": "Final price depends on vehicle size and interior condition (pet hair, heavy staining, etc.).",
+      "popular": true
+    },
+    {
+      "name": "Exterior Detail",
+      "category": "Exterior",
+      "price_min": 100,
+      "price_max": 180,
+      "duration_hours_min": 2,
+      "duration_hours_max": 3,
+      "description": "Hand wash, iron and tar decontamination, wheel and tire cleaning, dressing, and a wax or sealant depending on the package.",
+      "notes": "Larger SUVs and trucks are priced toward the higher end of the range.",
+      "popular": true
+    },
+    {
+      "name": "Full Detail",
+      "category": "Full",
+      "price_min": 180,
+      "price_max": 350,
+      "duration_hours_min": 4,
+      "duration_hours_max": 6,
+      "description": "Complete interior and exterior detail in one appointment. Includes everything in our Interior Detail and Exterior Detail packages.",
+      "notes": "Most popular package for first-time customers.",
+      "popular": true
+    },
+    {
+      "name": "Paint Correction",
+      "category": "Correction",
+      "price_min": 400,
+      "price_max": 1200,
+      "duration_hours_min": 6,
+      "duration_hours_max": 12,
+      "description": "Multi-stage machine polish to remove or reduce swirl marks, oxidation, light scratches, and water spots, restoring depth and clarity to the paint.",
+      "notes": "Final price depends on paint condition, color (black/dark colors usually need more work), and vehicle size. We confirm pricing after inspecting the paint.",
+      "popular": true
+    },
+    {
+      "name": "Ceramic Coating",
+      "category": "Coating",
+      "price_min": 800,
+      "price_max": 1800,
+      "duration_hours_min": 24,
+      "duration_hours_max": 48,
+      "description": "Professional ceramic coating package: wash, decontamination, paint prep, and application of a long-lasting ceramic coating that protects gloss and makes maintenance easier.",
+      "notes": "Paint correction is often recommended before coating so the coating locks in the best possible finish. Ceramic coating is NOT scratch-proof.",
+      "popular": true
+    },
+    {
+      "name": "Maintenance Wash",
+      "category": "Maintenance",
+      "price_min": 60,
+      "price_max": 120,
+      "duration_hours_min": 1,
+      "duration_hours_max": 2,
+      "description": "Recurring wash for returning customers: hand wash, wheels, tires, quick interior wipe-down, and windows.",
+      "notes": "Designed to keep coated or recently detailed vehicles looking their best between full details.",
+      "popular": false
+    }
+  ],
+  "vehicle_support": {
+    "supported_vehicle_types": [
+      "sedan",
+      "coupe",
+      "SUV",
+      "truck",
+      "minivan",
+      "EV",
+      "exotic / sports car"
+    ],
+    "size_pricing_note": "Larger SUVs and trucks cost more than sedans due to surface area and time. Exact pricing depends on vehicle size and condition.",
+    "ev_friendly": true,
+    "exotic_friendly": true
+  },
+  "faq": [
+    {
+      "question": "Do you do mobile detailing?",
+      "answer": "Yes — we offer mobile detailing within about 25 miles of Santa Ana. Mobile service depends on having a safe place to park your vehicle and weather conditions on the day.",
+      "tags": ["mobile_service"],
+      "intent": "ask_mobile_service"
+    },
+    {
+      "question": "What areas do you service?",
+      "answer": "We service most of Orange County, including Anaheim, Santa Ana, Irvine, Tustin, Costa Mesa, Newport Beach, Huntington Beach, Orange, Fullerton, and Garden Grove.",
+      "tags": ["service_area"],
+      "intent": "ask_service_area"
+    },
+    {
+      "question": "How much does a full detail cost?",
+      "answer": "Our full detail is typically between $180 and $350 depending on vehicle size and condition. We'll confirm the exact price once we know your vehicle and what kind of shape it's in.",
+      "tags": ["pricing", "full_detail"],
+      "intent": "ask_pricing"
+    },
+    {
+      "question": "How much is ceramic coating?",
+      "answer": "Ceramic coating packages typically range from $800 to $1,800. The price depends on coating durability, vehicle size, and whether paint correction is needed first.",
+      "tags": ["ceramic_coating", "pricing"],
+      "intent": "ask_ceramic_coating"
+    },
+    {
+      "question": "Is ceramic coating scratch-proof?",
+      "answer": "No — ceramic coating is not scratch-proof. It adds a strong protective layer that resists chemical etching, UV damage, and minor swirl marks, but it can still be scratched.",
+      "tags": ["ceramic_coating", "education"],
+      "intent": "ask_ceramic_coating"
+    },
+    {
+      "question": "Do I need paint correction before ceramic coating?",
+      "answer": "It's often recommended. Ceramic coating locks in whatever condition your paint is in, so any swirl marks or scratches present beforehand will be sealed under the coating. We can inspect the paint and recommend the right level of correction.",
+      "tags": ["paint_correction", "ceramic_coating"],
+      "intent": "ask_paint_correction"
+    },
+    {
+      "question": "Can you remove swirl marks and scratches?",
+      "answer": "Paint correction can remove or significantly reduce swirl marks, oxidation, and many light scratches. Deeper scratches that go past the clear coat usually can't be fully removed, but we can often make them less visible.",
+      "tags": ["paint_correction"],
+      "intent": "ask_paint_correction"
+    },
+    {
+      "question": "Do larger vehicles cost more?",
+      "answer": "Yes — larger SUVs and trucks take more time and product, so they're typically priced toward the higher end of each range.",
+      "tags": ["pricing", "vehicle_size"],
+      "intent": "ask_pricing"
+    },
+    {
+      "question": "Do you detail black cars / show cars?",
+      "answer": "Yes. Just keep in mind that black and dark paint shows swirl marks more easily, so paint correction is often a good idea before coating or for show prep.",
+      "tags": ["education", "black_paint"],
+      "intent": "ask_paint_correction"
+    },
+    {
+      "question": "What are your hours?",
+      "answer": "We're open Monday through Friday from 8:00 am to 6:00 pm, Saturday from 9:00 am to 4:00 pm, and we're closed on Sundays.",
+      "tags": ["hours"],
+      "intent": "ask_hours"
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book by calling us at (714) 555-7280 or chatting with us right here. We'll grab your vehicle details, preferred date/time, and confirm pricing for you.",
+      "tags": ["booking"],
+      "intent": "book_appointment"
+    },
+    {
+      "question": "Do you take EVs and Teslas?",
+      "answer": "Absolutely — we detail and coat EVs and Teslas all the time. We just take extra care around sensors and the frunk.",
+      "tags": ["vehicle_support", "ev"],
+      "intent": "ask_vehicle_support"
+    }
+  ],
+  "policies": {
+    "pricing": "Quoted prices are ranges. The final price depends on vehicle size and condition. We never lock in exact pricing without seeing the vehicle for paint correction or coating jobs.",
+    "deposit": "A deposit may be required for ceramic coating and paint correction appointments to hold the slot.",
+    "cancellation": "Please give at least 24 hours notice for cancellations or reschedules so we can offer the slot to someone else.",
+    "weather": "Mobile appointments may be rescheduled in heavy rain or extreme heat for vehicle and product safety.",
+    "warranty": "Ceramic coatings come with a warranty depending on the package selected; details are confirmed at booking.",
+    "service_area": "Mobile service is available within roughly 25 miles of Santa Ana. Outside that we can usually still help if the job is large enough; just ask.",
+    "scratch_disclaimer": "Paint correction can remove or reduce many imperfections, but deep scratches that go past the clear coat may not be fully removable. We are upfront about this before booking."
+  },
+  "appointment_rules": {
+    "lead_time_hours_standard": 24,
+    "lead_time_hours_coating": 48,
+    "appointment_slots_per_day": 3,
+    "appointment_time_blocks": [
+      "8:00 am",
+      "10:00 am",
+      "12:00 pm",
+      "2:00 pm"
+    ],
+    "min_lead_age_hours": 0,
+    "requires_vehicle_info": true,
+    "requires_contact_info": true,
+    "weekend_available": true
+  },
+  "ai_persona": {
+    "assistant_name": "Riley",
+    "tone_of_voice": "friendly, confident, knowledgeable about cars and detailing, low-pressure",
+    "speaks_for_business_as": "we",
+    "can_make_promises": false,
+    "escalation_policy": "For anything uncertain — exact quotes for paint correction or coating, deep scratch removal, or scheduling outside normal availability — collect the lead and tell the customer that the team will follow up to confirm.",
+    "safety_rules": [
+      "Never guarantee an exact price without confirming vehicle details. Offer a range from the services list.",
+      "Never promise that ceramic coating prevents all scratches.",
+      "Never book a mobile appointment outside the 25-mile service radius without flagging it.",
+      "Never book outside business hours.",
+      "Always try to collect the customer's name and phone before ending a qualified lead.",
+      "If the customer asks something the business data can't answer, capture the lead and say the team will follow up."
+    ]
+  },
+  "owner_notification": {
+    "sms_enabled": true,
+    "owner_sms_number": "",
+    "summary_format": "concise"
+  },
+  "top_questions": [
+    "How much for a full detail?",
+    "Do you do ceramic coating?",
+    "How much is ceramic coating?",
+    "Can you remove swirl marks?",
+    "Do you come to me?",
+    "Do you service Irvine?",
+    "Do you detail Teslas?",
+    "Can I book for Saturday?",
+    "Do you do paint correction?",
+    "Is ceramic coating scratch-proof?",
+    "What are your hours?",
+    "Where are you located?"
+  ]
+}

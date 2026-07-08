@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../chroma_db"
+		},
+		{
+			"path": "../evaluation_results"
+		},
+		{
+			"path": "../frontend"
+		},
+		{
+			"path": "../models"
+		},
+		{
+			"path": "../scripts"
+		},
+		{
+			"path": "../website"
+		},
+		{
+			"path": "../widget"
+		}
+	]
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OC Elite Detailing · AI Missed-Call Assistant for Auto Detailers</title>
+    <meta name="description" content="Never lose another detailing lead. AI answers missed calls, captures vehicle details, books appointments, and texts you every new lead.">
+    <link rel="stylesheet" href="/website/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">🚗</span>
+                    <span class="logo-text">OC Elite Detailing</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="nav-cta" onclick="openChat()">Try the live demo</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Never Lose Another Detailing Lead.</h1>
+                <p class="hero-subtitle">AI answers missed calls, captures vehicle details, books appointments, and texts you every new lead.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="openChat()">Try the live demo</button>
+                    <button class="btn btn-secondary" onclick="scrollToServices()">See services</button>
+                </div>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">📞</span>
+                        <span>Missed-call recovery</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">💬</span>
+                        <span>Web chat capture</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📅</span>
+                        <span>Appointment booking</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📲</span>
+                        <span>Owner SMS alerts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>See how it works</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Built for Auto Detailers</h2>
+                <p class="section-subtitle">Every missed call is a lost lead. Our AI receptionist makes sure that stops.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>When a customer calls about ceramic coating or a paint correction quote and you don't pick up in 3 rings, they call the next shop. We built an AI receptionist that picks up every call and chat, asks the right detailing questions, and texts you a clean summary of the lead.</p>
+                    <p>It knows your services, your prices, your service area, and the realities of detailing — that ceramic coating isn't scratch-proof, that black paint shows swirls, that pricing depends on the vehicle. Customers get real answers; you get qualified leads in your phone.</p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <span class="highlight-icon">✓</span>
+                            <span>Works 24/7</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-icon">✓</span>
+                            <span>Mobile & shop</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-icon">✓</span>
+                            <span>Owner texted instantly</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>✨</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="menu-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Mobile and shop-based detailing across Orange County</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-icon">🧽</div>
+                    <h3>Interior Detail</h3>
+                    <p>Vacuum, steam clean, plastics, leather conditioning. Returns the inside to like-new.</p>
+                    <span class="menu-price">From $120</span>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-icon">🚿</div>
+                    <h3>Exterior Detail</h3>
+                    <p>Wash, decontamination, wheels and tires, finished with wax or sealant.</p>
+                    <span class="menu-price">From $100</span>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-icon">✨</div>
+                    <h3>Full Detail</h3>
+                    <p>Inside and out in a single appointment. Most popular package.</p>
+                    <span class="menu-price">From $180</span>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-icon">💎</div>
+                    <h3>Paint Correction</h3>
+                    <p>Multi-stage polish to remove swirls, oxidation, and light scratches.</p>
+                    <span class="menu-price">From $400</span>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-icon">🛡️</div>
+                    <h3>Ceramic Coating</h3>
+                    <p>Long-lasting protection that locks in gloss and makes maintenance easier.</p>
+                    <span class="menu-price">From $800</span>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-icon">🔁</div>
+                    <h3>Maintenance Wash</h3>
+                    <p>Recurring wash for coated or recently detailed vehicles.</p>
+                    <span class="menu-price">From $60</span>
+                </div>
+            </div>
+            <div class="menu-cta">
+                <button class="btn btn-primary" onclick="openChat()">Get a quote from the AI</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours & Location Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">We come to you across most of Orange County, or you can drop the vehicle off at the shop.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Shop Location</h3>
+                    <p>1420 Industrial Way<br>Santa Ana, CA 92705</p>
+                    <a href="https://maps.google.com" target="_blank" class="contact-link">Get Directions →</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🕐</div>
+                    <h3>Hours</h3>
+                    <div class="hours-list">
+                        <div class="hours-item">
+                            <span>Mon - Fri</span>
+                            <span>8:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Sat</span>
+                            <span>9:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Sun</span>
+                            <span>Closed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Contact</h3>
+                    <p>Phone: <a href="tel:+17145557280">(714) 555-7280</a></p>
+                    <p>Email: <a href="mailto:hello@ocelitedetailing.com">hello@ocelitedetailing.com</a></p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span class="logo-icon">🚗</span>
+                        <span class="logo-text">OC Elite Detailing</span>
+                    </div>
+                    <p>AI missed-call assistant for auto detailers — built on the OC Elite Detailing demo.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Interior &amp; Exterior</li>
+                        <li>Paint Correction</li>
+                        <li>Ceramic Coating</li>
+                        <li>Mobile Detailing</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow along for build progress, customer demos, and detailing tips.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 OC Elite Detailing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget Integration -->
+    <script>
+        window.AIReceptionistConfig = {
+            apiUrl: 'http://127.0.0.1:8000',
+            businessId: 'oc_elite_detailing',
+            businessName: 'OC Elite Detailing',
+            position: 'bottom-right',
+            primaryColor: '#0f172a',
+            greeting: 'Hi — what vehicle are we helping you with today?'
+        };
+    </script>
+    <script src="http://127.0.0.1:8000/widget/widget.js"></script>
+
+    <!-- Smooth Scrolling -->
+    <script>
+        function scrollToServices() {
+            document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function scrollToContact() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function openChat() {
+            if (window.AIReceptionist) {
+                window.AIReceptionist.toggleChat();
+            } else {
+                scrollToContact();
+            }
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>

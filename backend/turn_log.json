@@ -1,0 +1,82 @@
+[
+  {
+    "timestamp": "2026-05-22T01:48:14.721836Z",
+    "call_sid": "smoke_test_001",
+    "business_id": "oc_elite_detailing",
+    "intent": "ask_ceramic_coating",
+    "customer_said": "Do you guys do ceramic coating on a black Tesla Model 3?",
+    "ai_response": "Got it. Sweet — what's your name?",
+    "response_source": "llm_turn",
+    "lead_id": "lead_93ae793e3624"
+  },
+  {
+    "timestamp": "2026-05-22T02:15:33.529430Z",
+    "call_sid": "sms_+16193482380",
+    "business_id": "oc_elite_detailing",
+    "intent": "ask_ceramic_coating",
+    "customer_said": "Hi I need a ceramic coating for my black Tesla",
+    "ai_response": "Got it. Sweet — what's your name?",
+    "response_source": "llm_turn",
+    "lead_id": "lead_5a7939840637"
+  },
+  {
+    "timestamp": "2026-05-22T02:24:37.158263Z",
+    "call_sid": "sms_+16193482380",
+    "business_id": "oc_elite_detailing",
+    "intent": "ask_ceramic_coating",
+    "customer_said": "Hello I have a Grey model s I need ceramic coated soon.. I leave the country in 2 days and I need it done in the next 24 hours..",
+    "ai_response": "Got it. Sweet — what's your name?",
+    "response_source": "llm_turn",
+    "lead_id": "lead_5a7939840637"
+  },
+  {
+    "timestamp": "2026-07-08T06:45:55.887935Z",
+    "call_sid": "call_smoke1",
+    "business_id": "oc_elite_detailing",
+    "intent": "ask_ceramic_coating",
+    "customer_said": "Hi, I want ceramic coating on my 2022 black Tesla Model 3",
+    "ai_response": "Got it. How's the paint looking — any swirl marks, scratches, or water spots you've noticed?",
+    "response_source": "llm_turn",
+    "lead_id": "lead_d7f52113400b"
+  },
+  {
+    "timestamp": "2026-07-08T06:45:55.919935Z",
+    "call_sid": "call_smoke1",
+    "business_id": "oc_elite_detailing",
+    "intent": "ask_paint_correction",
+    "customer_said": "There are some swirl marks on the hood",
+    "ai_response": "Got it. How's the paint looking — any swirl marks, scratches, or water spots you've noticed?",
+    "response_source": "llm_turn",
+    "lead_id": "lead_d7f52113400b"
+  },
+  {
+    "timestamp": "2026-07-08T06:46:32.547191Z",
+    "call_sid": "call_smoke2",
+    "business_id": "oc_elite_detailing",
+    "intent": "ask_ceramic_coating",
+    "customer_said": "Hi, I want ceramic coating on my 2022 black Tesla Model 3",
+    "ai_response": "Got it. How's the paint looking — any swirl marks, scratches, or water spots you've noticed?",
+    "response_source": "llm_turn",
+    "lead_id": "lead_7c6d0bfe0fa5"
+  },
+  {
+    "timestamp": "2026-07-08T06:46:32.585192Z",
+    "call_sid": "call_smoke2",
+    "business_id": "oc_elite_detailing",
+    "intent": "ask_paint_correction",
+    "customer_said": "There are some swirl marks on the hood",
+    "ai_response": "Got it. When were you hoping to get it done?",
+    "response_source": "llm_turn",
+    "lead_id": "lead_7c6d0bfe0fa5"
+  },
+  {
+    "timestamp": "2026-07-08T06:46:32.624194Z",
+    "call_sid": "call_smoke2",
+    "business_id": "oc_elite_detailing",
+    "intent": "book_appointment",
+    "customer_said": "This weekend would be great. Im Mike, 714-928-4731",
+    "ai_response": "Got it. When were you hoping to get it done?",
+    "response_source": "llm_turn",
+    "lead_id": "lead_7c6d0bfe0fa5"
+  }
+]

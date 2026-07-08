@@ -1,0 +1,356 @@
+[
+  {
+    "id": "lead_2cbdf24b4ce6",
+    "business_id": "oc_elite_detailing",
+    "call_sid": "demo_mike",
+    "channel": "phone",
+    "status": "new",
+    "ai_confidence": null,
+    "owner_notified": true,
+    "owner_notified_at": "2026-05-21T22:06:44.405634Z",
+    "transcript": [
+      {
+        "role": "assistant",
+        "text": "Thanks for calling OC Elite Detailing. How can we help with your vehicle today?",
+        "ts": "2026-05-21T22:02:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "Hey, I've got a black Tesla Model 3 and I'm thinking about getting a ceramic coating.",
+        "ts": "2026-05-21T22:03:44.405634Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Nice — black on a Model 3 is a great candidate for coating. How does the paint look right now, any swirl marks or scratches?",
+        "ts": "2026-05-21T22:03:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "Yeah some swirls from automatic car washes. Should I do something about that first?",
+        "ts": "2026-05-21T22:04:44.405634Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Usually we recommend paint correction before coating so the coating locks in a clean finish. Want me to grab your info and have the team confirm pricing?",
+        "ts": "2026-05-21T22:04:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "Sure. Mike Alvarez, 714-555-1234. Saturday morning ideally.",
+        "ts": "2026-05-21T22:05:44.405634Z"
+      }
+    ],
+    "created_at": "2026-05-21T22:05:44.405634Z",
+    "updated_at": "2026-05-21T22:07:44.405634Z",
+    "customer_name": "Mike Alvarez",
+    "customer_phone": "714-555-1234",
+    "vehicle_year": "2022",
+    "vehicle_make": "Tesla",
+    "vehicle_model": "Model 3",
+    "vehicle_color": "black",
+    "service_requested": "Ceramic Coating",
+    "condition_notes": "Some swirl marks from automatic car washes. May need paint correction first.",
+    "mobile_or_shop_preference": "shop",
+    "customer_location": "Irvine",
+    "preferred_date": "Saturday",
+    "preferred_time": "morning",
+    "urgency": null,
+    "budget_signal": "open to paint correction if it makes the coating last",
+    "lead_summary": "Black Tesla Model 3 owner interested in ceramic coating; likely needs paint correction first."
+  },
+  {
+    "id": "lead_4c4e3139fff8",
+    "business_id": "oc_elite_detailing",
+    "call_sid": "demo_daniela",
+    "channel": "phone",
+    "status": "contacted",
+    "ai_confidence": null,
+    "owner_notified": true,
+    "owner_notified_at": "2026-05-21T21:31:44.405634Z",
+    "transcript": [
+      {
+        "role": "assistant",
+        "text": "Thanks for calling OC Elite Detailing. How can we help with your vehicle today?",
+        "ts": "2026-05-21T21:27:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "I have a white BMW M4 with a bunch of swirl marks. What do you charge for paint correction?",
+        "ts": "2026-05-21T21:28:44.405634Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Paint correction usually runs $400–$1,200 depending on paint condition and vehicle size. We confirm the exact quote after seeing the car. Want to bring it in?",
+        "ts": "2026-05-21T21:29:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "Yeah, next Wednesday afternoon if you have something.",
+        "ts": "2026-05-21T21:30:44.405634Z"
+      }
+    ],
+    "created_at": "2026-05-21T21:30:44.405634Z",
+    "updated_at": "2026-05-21T21:32:44.405634Z",
+    "customer_name": "Daniela Cho",
+    "customer_phone": "949-555-7788",
+    "vehicle_year": "2020",
+    "vehicle_make": "BMW",
+    "vehicle_model": "M4",
+    "vehicle_color": "white",
+    "service_requested": "Paint Correction",
+    "condition_notes": "Heavy swirl marks and a few light scratches around the rear quarter panel.",
+    "mobile_or_shop_preference": "shop",
+    "customer_location": "Costa Mesa",
+    "preferred_date": "next Wednesday",
+    "preferred_time": "afternoon",
+    "urgency": null,
+    "budget_signal": "ok with multi-day if needed",
+    "lead_summary": "White BMW M4 with heavy swirls; wants paint correction quote and possible coating after."
+  },
+  {
+    "id": "lead_84e35705f47c",
+    "business_id": "oc_elite_detailing",
+    "call_sid": "demo_aaron",
+    "channel": "phone",
+    "status": "booked",
+    "ai_confidence": null,
+    "owner_notified": true,
+    "owner_notified_at": "2026-05-21T20:28:44.405634Z",
+    "transcript": [
+      {
+        "role": "assistant",
+        "text": "Thanks for calling OC Elite Detailing. How can we help with your vehicle today?",
+        "ts": "2026-05-21T20:22:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "Hi, looking to get my 2018 Camry detailed. It's the family car so it's pretty rough inside.",
+        "ts": "2026-05-21T20:23:44.405634Z"
+      },
+      {
+        "role": "assistant",
+        "text": "We can definitely help. Our full detail is $180–$350 depending on condition. Any pet hair or anything to flag?",
+        "ts": "2026-05-21T20:24:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "Yeah a lot of pet hair in the back. Can you do Friday morning at 10?",
+        "ts": "2026-05-21T20:25:44.405634Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Friday 10 am works. What's the best phone number to put on the appointment?",
+        "ts": "2026-05-21T20:26:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "Aaron Walker, 657-555-3320.",
+        "ts": "2026-05-21T20:27:44.405634Z"
+      }
+    ],
+    "created_at": "2026-05-21T20:27:44.405634Z",
+    "updated_at": "2026-05-21T20:29:44.405634Z",
+    "customer_name": "Aaron Walker",
+    "customer_phone": "657-555-3320",
+    "vehicle_year": "2018",
+    "vehicle_make": "Toyota",
+    "vehicle_model": "Camry",
+    "vehicle_color": "silver",
+    "service_requested": "Full Detail",
+    "condition_notes": "Family car, pet hair in the back seats, normal exterior wear.",
+    "mobile_or_shop_preference": "shop",
+    "customer_location": "Santa Ana",
+    "preferred_date": "Friday",
+    "preferred_time": "10:00 am",
+    "urgency": null,
+    "budget_signal": "cost-conscious",
+    "lead_summary": "Silver Camry needs a full detail with pet hair removal in back seats. Wants Friday morning."
+  },
+  {
+    "id": "lead_d2d33108a1d4",
+    "business_id": "oc_elite_detailing",
+    "call_sid": "demo_jess",
+    "channel": "phone",
+    "status": "new",
+    "ai_confidence": null,
+    "owner_notified": true,
+    "owner_notified_at": "2026-05-21T18:58:44.405634Z",
+    "transcript": [
+      {
+        "role": "assistant",
+        "text": "Thanks for reaching out to OC Elite Detailing! What vehicle are we helping you with today?",
+        "ts": "2026-05-21T18:52:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "I have a 2021 F-150 work truck. Interior is destroyed. Can you come to me in Anaheim?",
+        "ts": "2026-05-21T18:53:44.405634Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Yep, Anaheim is in our mobile service area. Interior details on trucks usually run $150–$220 depending on condition. When were you hoping for?",
+        "ts": "2026-05-21T18:54:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "Sometime this week, sooner the better. Jess Patel, 714-555-9011.",
+        "ts": "2026-05-21T18:57:44.405634Z"
+      }
+    ],
+    "created_at": "2026-05-21T18:57:44.405634Z",
+    "updated_at": "2026-05-21T18:59:44.405634Z",
+    "customer_name": "Jess Patel",
+    "customer_phone": "714-555-9011",
+    "vehicle_year": "2021",
+    "vehicle_make": "Ford",
+    "vehicle_model": "F-150",
+    "vehicle_color": "blue",
+    "service_requested": "Interior Detail",
+    "condition_notes": "Work truck — lots of mud and dust, vinyl seats. No leather.",
+    "mobile_or_shop_preference": "mobile",
+    "customer_location": "Anaheim",
+    "preferred_date": null,
+    "preferred_time": null,
+    "urgency": "soon",
+    "budget_signal": null,
+    "lead_summary": "Blue F-150 work truck — wants mobile interior detail in Anaheim, ASAP this week."
+  },
+  {
+    "id": "lead_4a97ba473890",
+    "business_id": "oc_elite_detailing",
+    "call_sid": "demo_sara",
+    "channel": "chat",
+    "status": "new",
+    "ai_confidence": null,
+    "owner_notified": true,
+    "owner_notified_at": "2026-05-21T16:58:44.405634Z",
+    "transcript": [
+      {
+        "role": "assistant",
+        "text": "Hi — what vehicle are we helping you with today?",
+        "ts": "2026-05-21T16:52:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "Mercedes C-Class, 2019. I'm putting it up for sale and want it looking sharp. Do you come to Newport?",
+        "ts": "2026-05-21T16:53:44.405634Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Yes, Newport Beach is in our mobile service area. A full detail typically runs $180–$350 depending on size and condition. Want to set a time?",
+        "ts": "2026-05-21T16:54:44.405634Z"
+      },
+      {
+        "role": "user",
+        "text": "Sunday afternoon would be perfect. Sara Nguyen, 949-555-4422.",
+        "ts": "2026-05-21T16:57:44.405634Z"
+      }
+    ],
+    "created_at": "2026-05-21T16:57:44.405634Z",
+    "updated_at": "2026-05-21T16:59:44.405634Z",
+    "customer_name": "Sara Nguyen",
+    "customer_phone": "949-555-4422",
+    "vehicle_year": "2019",
+    "vehicle_make": "Mercedes",
+    "vehicle_model": "C-Class",
+    "vehicle_color": "grey",
+    "service_requested": "Full Detail",
+    "condition_notes": "Leather interior, garage kept, just wants a refresh before selling it.",
+    "mobile_or_shop_preference": "mobile",
+    "customer_location": "Newport Beach",
+    "preferred_date": "Sunday",
+    "preferred_time": "afternoon",
+    "urgency": null,
+    "budget_signal": "willing to pay for a premium job",
+    "lead_summary": "Grey Mercedes C-Class — wants mobile full detail in Newport before listing for sale."
+  },
+  {
+    "id": "lead_93ae793e3624",
+    "business_id": "oc_elite_detailing",
+    "call_sid": "smoke_test_001",
+    "channel": "chat",
+    "status": "contacted",
+    "ai_confidence": null,
+    "owner_notified": false,
+    "owner_notified_at": null,
+    "transcript": [
+      {
+        "role": "user",
+        "text": "Do you guys do ceramic coating on a black Tesla Model 3?",
+        "ts": "2026-05-22T01:48:14.102651Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Got it. Sweet — what's your name?",
+        "ts": "2026-05-22T01:48:14.720835Z"
+      }
+    ],
+    "created_at": "2026-05-22T01:48:14.102651Z",
+    "updated_at": "2026-05-22T02:31:45.487609Z",
+    "customer_name": null,
+    "customer_phone": null,
+    "vehicle_year": null,
+    "vehicle_make": "Tesla",
+    "vehicle_model": null,
+    "vehicle_color": "black",
+    "service_requested": "Ceramic Coating",
+    "condition_notes": null,
+    "mobile_or_shop_preference": null,
+    "customer_location": null,
+    "preferred_date": null,
+    "preferred_time": null,
+    "urgency": null,
+    "budget_signal": null,
+    "lead_summary": null
+  },
+  {
+    "id": "lead_5a7939840637",
+    "business_id": "oc_elite_detailing",
+    "call_sid": "sms_+16193482380",
+    "channel": "sms",
+    "status": "new",
+    "ai_confidence": null,
+    "owner_notified": true,
+    "owner_notified_at": "2026-05-22T02:15:33.528429Z",
+    "transcript": [
+      {
+        "role": "user",
+        "text": "Hi I need a ceramic coating for my black Tesla",
+        "ts": "2026-05-22T02:15:33.509410Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Got it. Sweet — what's your name?",
+        "ts": "2026-05-22T02:15:33.528429Z"
+      },
+      {
+        "role": "user",
+        "text": "Hello I have a Grey model s I need ceramic coated soon.. I leave the country in 2 days and I need it done in the next 24 hours..",
+        "ts": "2026-05-22T02:24:37.138025Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Got it. Sweet — what's your name?",
+        "ts": "2026-05-22T02:24:37.156760Z"
+      }
+    ],
+    "created_at": "2026-05-22T02:15:33.509410Z",
+    "updated_at": "2026-05-22T02:24:37.156760Z",
+    "customer_name": null,
+    "customer_phone": "+16193482380",
+    "vehicle_year": null,
+    "vehicle_make": "Tesla",
+    "vehicle_model": null,
+    "vehicle_color": "grey",
+    "service_requested": "Ceramic Coating",
+    "condition_notes": null,
+    "mobile_or_shop_preference": null,
+    "customer_location": null,
+    "preferred_date": null,
+    "preferred_time": null,
+    "urgency": null,
+    "budget_signal": null,
+    "lead_summary": null,
+    "owner_notify_reason": "no owner SMS number configured"
+  }
+]
